@@ -45,29 +45,30 @@ This project analyzes how Python packages used in the generative AI ecosystem de
 - Cleaned package profile data
 - Snapshot version table
 - Dependency edge list
-- Code import/symbol structure table
+- Code import/symbol structure sample
 - Network and alternative-package analysis results
-- Master SQLite database with catalog and validation tables
+- Project summary metrics
 
-## Files
+## Published Files
 
 ```text
 data/
+  project_summary_metrics.csv
+  project_metrics.json
   final_data_01_package_profile.csv
   final_data_02_snapshot_versions.csv
   final_data_03_dependency_edges.csv
-  final_data_04_code_structure.csv
+  final_data_04_code_structure_sample.csv
   final_data_05_model_analysis_results.csv
-  02_master_table_catalog.csv
-  03_data_loading_validation.csv
-  collected_data_master_cleaned.sqlite
-  project_metrics.json
 
 docs/
   master_data_usage_guide.md
-  presentation_script.pdf
-  presentation_deck.pdf
+  presentation_script.md
 ```
+
+## Large Local Artifacts
+
+The original project also includes a full code-structure CSV, a SQLite master database, and PDF presentation files. For a cleaner public portfolio repository, this GitHub folder publishes the cleaned summary files and a representative code-structure sample.
 
 ## Notes
 
