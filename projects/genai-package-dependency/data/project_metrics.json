@@ -1,0 +1,338 @@
+{
+  "package_count": 50,
+  "category_count": 5,
+  "snapshot_count": 5,
+  "dependency_edge_count": 4509,
+  "code_structure_records": 72922,
+  "model_result_rows": 1190,
+  "representative_code_packages": 10,
+  "top_nodes": [
+    {
+      "snapshot_label": "2022_end",
+      "package": "numpy",
+      "category": "dependency",
+      "in_degree": 9.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0247802707124469
+    },
+    {
+      "snapshot_label": "2022_end",
+      "package": "requests",
+      "category": "dependency",
+      "in_degree": 8.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0221440625152731
+    },
+    {
+      "snapshot_label": "2022_end",
+      "package": "pydantic",
+      "category": "dependency",
+      "in_degree": 4.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0208817441392059
+    },
+    {
+      "snapshot_label": "2022_end",
+      "package": "pyyaml",
+      "category": "dependency",
+      "in_degree": 6.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0198207936690865
+    },
+    {
+      "snapshot_label": "2022_end",
+      "package": "regex",
+      "category": "dependency",
+      "in_degree": 3.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0192942685500396
+    },
+    {
+      "snapshot_label": "2023_end",
+      "package": "requests",
+      "category": "dependency",
+      "in_degree": 15.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0156190153830133
+    },
+    {
+      "snapshot_label": "2023_end",
+      "package": "pydantic",
+      "category": "dependency",
+      "in_degree": 15.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0154442837732373
+    },
+    {
+      "snapshot_label": "2023_end",
+      "package": "huggingface-hub",
+      "category": "Model Runtime",
+      "in_degree": 7.0,
+      "out_degree": 7.0,
+      "pagerank": 0.0133831023185293
+    },
+    {
+      "snapshot_label": "2023_end",
+      "package": "typing-extensions",
+      "category": "dependency",
+      "in_degree": 12.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0128066988842597
+    },
+    {
+      "snapshot_label": "2023_end",
+      "package": "packaging",
+      "category": "dependency",
+      "in_degree": 10.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0108293571575443
+    },
+    {
+      "snapshot_label": "2024_end",
+      "package": "pydantic",
+      "category": "dependency",
+      "in_degree": 24.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0138875420232218
+    },
+    {
+      "snapshot_label": "2024_end",
+      "package": "typing-extensions",
+      "category": "dependency",
+      "in_degree": 18.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0118720007931555
+    },
+    {
+      "snapshot_label": "2024_end",
+      "package": "packaging",
+      "category": "dependency",
+      "in_degree": 13.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0102298228985129
+    },
+    {
+      "snapshot_label": "2024_end",
+      "package": "numpy",
+      "category": "dependency",
+      "in_degree": 19.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0101819535814142
+    },
+    {
+      "snapshot_label": "2024_end",
+      "package": "requests",
+      "category": "dependency",
+      "in_degree": 13.0,
+      "out_degree": 0.0,
+      "pagerank": 0.009877291309807
+    },
+    {
+      "snapshot_label": "2025_end",
+      "package": "pydantic",
+      "category": "dependency",
+      "in_degree": 27.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0143835521761999
+    },
+    {
+      "snapshot_label": "2025_end",
+      "package": "typing-extensions",
+      "category": "dependency",
+      "in_degree": 22.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0116003764861723
+    },
+    {
+      "snapshot_label": "2025_end",
+      "package": "httpx",
+      "category": "dependency",
+      "in_degree": 17.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0101939141765844
+    },
+    {
+      "snapshot_label": "2025_end",
+      "package": "packaging",
+      "category": "dependency",
+      "in_degree": 13.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0099155394803694
+    },
+    {
+      "snapshot_label": "2025_end",
+      "package": "huggingface-hub",
+      "category": "Model Runtime",
+      "in_degree": 8.0,
+      "out_degree": 10.0,
+      "pagerank": 0.0093085536990787
+    },
+    {
+      "snapshot_label": "2026_current",
+      "package": "pydantic",
+      "category": "dependency",
+      "in_degree": 27.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0139369779830292
+    },
+    {
+      "snapshot_label": "2026_current",
+      "package": "httpx",
+      "category": "dependency",
+      "in_degree": 21.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0114824367160282
+    },
+    {
+      "snapshot_label": "2026_current",
+      "package": "typing-extensions",
+      "category": "dependency",
+      "in_degree": 22.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0109140706052805
+    },
+    {
+      "snapshot_label": "2026_current",
+      "package": "packaging",
+      "category": "dependency",
+      "in_degree": 15.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0105131485195178
+    },
+    {
+      "snapshot_label": "2026_current",
+      "package": "numpy",
+      "category": "dependency",
+      "in_degree": 17.0,
+      "out_degree": 0.0,
+      "pagerank": 0.0091412165075333
+    }
+  ],
+  "csv_summaries": {
+    "final_data_01_package_profile.csv": {
+      "rows": 50,
+      "cols": 18,
+      "columns": [
+        "category",
+        "package",
+        "name_on_pypi",
+        "package_norm",
+        "name_on_pypi_norm",
+        "pypi_category",
+        "package_pypi",
+        "pypi_url",
+        "summary",
+        "author",
+        "license",
+        "latest_version",
+        "requires_python",
+        "project_urls",
+        "requires_dist_current",
+        "collected_at",
+        "is_representative_code_collected",
+        "code_parse_file_count"
+      ]
+    },
+    "final_data_02_snapshot_versions.csv": {
+      "rows": 250,
+      "cols": 15,
+      "columns": [
+        "category",
+        "package",
+        "name_on_pypi",
+        "snapshot_label",
+        "snapshot_date",
+        "selected_version",
+        "release_date",
+        "status",
+        "package_norm",
+        "name_on_pypi_norm",
+        "snapshot_order",
+        "is_missing_at_snapshot",
+        "is_released_at_snapshot",
+        "is_stable_version",
+        "is_usable_snapshot"
+      ]
+    },
+    "final_data_03_dependency_edges.csv": {
+      "rows": 4509,
+      "cols": 10,
+      "columns": [
+        "snapshot_label",
+        "snapshot_order",
+        "category",
+        "source",
+        "target",
+        "dependency_layer",
+        "is_runtime_dependency",
+        "is_optional_extra_dependency",
+        "weight",
+        "source_version"
+      ]
+    },
+    "final_data_04_code_structure.csv": {
+      "rows": 72922,
+      "cols": 10,
+      "columns": [
+        "category",
+        "file_path",
+        "import_name",
+        "package",
+        "record_type",
+        "symbol_name",
+        "symbol_type",
+        "top_module",
+        "parse_status",
+        "reason"
+      ]
+    },
+    "final_data_05_model_analysis_results.csv": {
+      "rows": 1190,
+      "cols": 16,
+      "columns": [
+        "record_type",
+        "snapshot_label",
+        "package",
+        "package_a",
+        "package_b",
+        "category",
+        "in_degree",
+        "out_degree",
+        "total_degree",
+        "pagerank",
+        "community",
+        "shared_dep_count",
+        "shared_dependency_similarity",
+        "same_community",
+        "centrality_balance",
+        "alt_score"
+      ]
+    },
+    "02_master_table_catalog.csv": {
+      "rows": 16,
+      "cols": 8,
+      "columns": [
+        "table_name",
+        "group",
+        "description",
+        "source_file",
+        "row_count",
+        "column_count",
+        "columns",
+        "load_status"
+      ]
+    },
+    "03_data_loading_validation.csv": {
+      "rows": 16,
+      "cols": 6,
+      "columns": [
+        "table_name",
+        "source_file_exists",
+        "row_count",
+        "column_count",
+        "load_status",
+        "error"
+      ]
+    }
+  }
+}
