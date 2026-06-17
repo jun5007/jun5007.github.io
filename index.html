@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>이석준 | AI & Big Data Portfolio</title>
-    <meta name="description" content="순천향대학교 AI빅데이터학과 이석준의 데이터 분석 및 머신러닝 포트폴리오">
+    <meta name="description" content="순천향대학교 AI빅데이터학과 3학년 이석준의 금융 데이터 분석, 시계열 모델링, EDA 포트폴리오">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
@@ -13,6 +13,7 @@
       <nav aria-label="Primary navigation">
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
+        <a href="#about">About</a>
         <a href="https://github.com/jun5007">GitHub</a>
       </nav>
     </header>
@@ -23,9 +24,14 @@
           <p class="eyebrow">Soonchunhyang University · AI & Big Data</p>
           <h1>이석준</h1>
           <p class="lead">
-            금융 데이터와 뉴스/검색 데이터를 활용해 시장 반응을 분석하고,
-            전처리부터 파생변수 설계, 모델 검증까지 연결하는 데이터 분석 포트폴리오입니다.
+            데이터를 분석해 보이지 않던 정보와 패턴을 찾아내는 AI빅데이터학과 3학년입니다.
+            금융 시장 데이터를 중심으로 전처리, 파생변수 설계, 모델 검증까지 연결해 시장 반응을 설명합니다.
           </p>
+          <div class="focus-list" aria-label="Portfolio focus">
+            <span>Financial Data Analysis</span>
+            <span>Time-Series Feature Engineering</span>
+            <span>EDA Storytelling</span>
+          </div>
           <div class="actions">
             <a class="button primary" href="https://github.com/jun5007">GitHub Profile</a>
             <a class="button secondary" href="#projects">View Projects</a>
@@ -39,7 +45,7 @@
       <section class="summary" aria-label="Portfolio summary">
         <div>
           <strong>2</strong>
-          <span>Data Projects</span>
+          <span>Published Data Projects</span>
         </div>
         <div>
           <strong>Finance</strong>
@@ -48,6 +54,24 @@
         <div>
           <strong>Python / R</strong>
           <span>Main Stack</span>
+        </div>
+        <div>
+          <strong>Google Analytics</strong>
+          <span>Certification 2026</span>
+        </div>
+      </section>
+
+      <section class="section compact" aria-label="Portfolio strengths">
+        <div class="strength-grid">
+          <div>
+            <p class="eyebrow">What I show</p>
+            <h2>데이터로 시장 반응을 설명하는 분석</h2>
+          </div>
+          <p>
+            주가, 환율, 외국인 수급, 뉴스, 검색량처럼 서로 다른 출처의 데이터를 결합하고,
+            분석 목적에 맞는 파생변수를 설계합니다. 현재는 데이터 분석 직무를 중심으로 탐색하며,
+            금융, 의료, 게임, 생활 데이터처럼 실제 행동과 의사결정이 남는 분야에 관심이 있습니다.
+          </p>
         </div>
       </section>
 
@@ -61,16 +85,32 @@
           <div class="project-meta">
             <span>2025.03 - 2025.06</span>
             <span>2학년 1학기</span>
+            <span>Team Project</span>
           </div>
           <h3>환율 민감도 기반 클러스터링과 산업별 월간 수익률 예측</h3>
           <p>
             KOSPI 대형주, USD/KRW 환율, 외국인 수급 데이터를 결합해 환율 민감도 기반 군집을 만들고,
             산업 간 동조지수(mean_corr)를 RandomForest 예측 모델에 반영했습니다.
           </p>
+          <div class="project-details" aria-label="Project details">
+            <div>
+              <span>Problem</span>
+              <strong>환율 변화가 산업별 수익률 예측에 주는 영향 확인</strong>
+            </div>
+            <div>
+              <span>My Role</span>
+              <strong>데이터 수집/전처리, 모델링 계획, K-Means 군집화, RandomForest 예측 모델 구현</strong>
+            </div>
+            <div>
+              <span>Result</span>
+              <strong>자동차 산업 RMSE 약 17.6% 감소, 방향 적중률 0.333에서 0.500으로 개선</strong>
+            </div>
+          </div>
           <ul class="project-points">
             <li>K-Means 기반 환율 민감도 군집화</li>
             <li>Lift 기준 산업 파트너 추출 및 동조지수 설계</li>
-            <li>일부 산업에서 RMSE 개선, 자동차 산업 약 17.6% 감소</li>
+            <li>확장형 Walk-Forward Validation으로 Baseline과 개선 모델 비교</li>
+            <li>개별 종목 예측의 변동성이 커 산업 단위 예측 문제로 재정의</li>
           </ul>
           <div class="tags">
             <span>Time Series</span>
@@ -78,23 +118,39 @@
             <span>RandomForest</span>
             <span>Association Rules</span>
           </div>
-          <a class="text-link" href="https://github.com/jun5007/exchange-rate-synchronization">Repository</a>
+          <a class="text-link" href="https://github.com/jun5007/exchange-rate-synchronization">프로젝트 상세 보기</a>
         </article>
 
         <article class="project-card">
           <div class="project-meta">
             <span>2025.09 - 2025.12</span>
             <span>2학년 2학기</span>
+            <span>Team Project</span>
           </div>
           <h3>이슈와 주식 EDA: 개인투자자의 FOMO 행동 패턴 분석</h3>
           <p>
             KRX 주식 데이터, 네이버 검색량, 빅카인즈 뉴스 건수를 결합해 이슈강도를 정의하고,
             종목별 가격/거래량 반응과 이슈 민감도 군집을 분석했습니다.
           </p>
+          <div class="project-details" aria-label="Project details">
+            <div>
+              <span>Problem</span>
+              <strong>뉴스/검색 이슈가 가격 방향보다 거래 참여에 더 강하게 반영되는지 검증</strong>
+            </div>
+            <div>
+              <span>My Role</span>
+              <strong>네이버 검색량 수집, 빅카인즈 뉴스 정리, 휴장일 처리, 클러스터링과 시각화</strong>
+            </div>
+            <div>
+              <span>Result</span>
+              <strong>다음 거래일 등락률 상관 약 0.03, 거래량 상관 약 0.56 확인</strong>
+            </div>
+          </div>
           <ul class="project-points">
             <li>뉴스 로그값과 검색 로그값을 결합한 이슈강도 변수 생성</li>
             <li>휴장일 이슈를 다음 거래일 반응과 연결하는 전처리 설계</li>
-            <li>이슈강도는 수익률보다 다음날 거래량과 더 높은 관련성 확인</li>
+            <li>종목별 이슈 민감도를 K-Means로 군집화해 반응 유형 해석</li>
+            <li>향후 감성 분석을 추가해 호재/악재에 따른 반응 차이까지 확장 가능</li>
           </ul>
           <div class="tags">
             <span>EDA</span>
@@ -102,7 +158,7 @@
             <span>K-Means</span>
             <span>Market Reaction</span>
           </div>
-          <a class="text-link" href="https://github.com/jun5007/issue-stock-eda">Repository</a>
+          <a class="text-link" href="https://github.com/jun5007/issue-stock-eda">프로젝트 상세 보기</a>
         </article>
       </section>
 
@@ -114,15 +170,40 @@
         <div class="skill-groups">
           <div>
             <h3>Analysis</h3>
-            <p>EDA, feature engineering, event study, correlation analysis, clustering, model evaluation</p>
+            <p>EDA, feature engineering, event study, correlation analysis, clustering, walk-forward validation, model evaluation</p>
           </div>
           <div>
             <h3>Tools</h3>
-            <p>Python, R, pandas, NumPy, scikit-learn, tidyverse, randomForest, Matplotlib, Seaborn, Jupyter Notebook, Excel</p>
+            <p>Python, R, pandas, NumPy, scikit-learn, tidyverse, randomForest, Matplotlib, Seaborn, Jupyter Notebook, Excel, Google Analytics</p>
+          </div>
+          <div>
+            <h3>Certification</h3>
+            <p>Google Analytics Certification (2026), issued June 12, 2026 and valid through June 12, 2027.</p>
           </div>
           <div>
             <h3>Interests</h3>
-            <p>financial data analysis, time-series modeling, news/search trend based market reaction analysis</p>
+            <p>financial data analysis, healthcare data, game data, daily-life data, time-series modeling, news/search trend based market reaction analysis</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section two-column">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Direction</h2>
+        </div>
+        <div class="skill-groups">
+          <div>
+            <h3>Portfolio Goal</h3>
+            <p>단순한 모델 적용보다 데이터 수집 기준, 전처리 판단, 파생변수 설계, 검증 방식을 설명할 수 있는 분석가를 목표로 합니다.</p>
+          </div>
+          <div>
+            <h3>Next Step</h3>
+            <p>프로젝트 발표자료에서 공개 가능한 그래프를 선별하고, 샘플 데이터와 노트북을 정리해 재현성과 전달력을 높일 예정입니다.</p>
+          </div>
+          <div>
+            <h3>Current Activity</h3>
+            <p>데이콘 ETRI 휴먼이해 5회 대회에 참가하며 실제 데이터 기반 문제 해결 경험을 확장하고 있습니다.</p>
           </div>
         </div>
       </section>
