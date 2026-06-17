@@ -9,6 +9,7 @@ The portfolio focuses on a third-year AI & Big Data student exploring data analy
 ## Focus
 
 - Financial data analysis
+- Generative AI package dependency analysis
 - Time-series feature engineering
 - News/search trend based market reaction analysis
 - EDA storytelling and model evaluation
