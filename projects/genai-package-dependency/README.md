@@ -49,6 +49,12 @@ This project analyzes how Python packages used in the generative AI ecosystem de
 - Network and alternative-package analysis results
 - Project summary metrics
 
+## Improvement Notes
+
+- Add visible color chips to the network graph legend so each package category can be matched with the node colors.
+- Keep node and edge color rules consistent across the graph, legend, and presentation materials.
+- Add a short chart caption explaining that node colors represent package categories and edges represent dependency relationships.
+
 ## Published Files
 
 ```text
