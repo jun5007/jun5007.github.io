@@ -18,6 +18,10 @@ The portfolio focuses on a third-year AI & Big Data student exploring data analy
 
 - Google Analytics Certification (2026)
 
+## Current Activity
+
+- Participating in the Dacon ETRI Human Understanding 5th competition
+
 ## Files
 
 - `index.html`: Portfolio content and project summaries
