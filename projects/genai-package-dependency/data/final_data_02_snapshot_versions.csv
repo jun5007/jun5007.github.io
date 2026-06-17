@@ -1,0 +1,251 @@
+﻿category,package,name_on_pypi,snapshot_label,snapshot_date,selected_version,release_date,status,package_norm,name_on_pypi_norm,snapshot_order,is_missing_at_snapshot,is_released_at_snapshot,is_stable_version,is_usable_snapshot
+App/Service,chainlit,chainlit,2022_end,2022-12-31,,,not_released_yet,chainlit,chainlit,1,True,False,False,False
+App/Service,chainlit,chainlit,2023_end,2023-12-31,0.7.700,2023-11-28 14:14:40.217759+00:00,ok,chainlit,chainlit,2,False,True,True,True
+App/Service,chainlit,chainlit,2024_end,2024-12-31,1.3.2,2024-11-08 10:42:53.944061+00:00,ok,chainlit,chainlit,3,False,True,True,True
+App/Service,chainlit,chainlit,2025_end,2025-12-31,2.9.4,2025-12-25 03:41:22.833198+00:00,ok,chainlit,chainlit,4,False,True,True,True
+App/Service,chainlit,chainlit,2026_current,2026-06-16,2.11.1,2026-04-22 00:56:26.413060+00:00,ok,chainlit,chainlit,5,False,True,True,True
+App/Service,fastapi,fastapi,2022_end,2022-12-31,0.88.0,2022-11-27 14:54:57.652470+00:00,ok,fastapi,fastapi,1,False,True,True,True
+App/Service,fastapi,fastapi,2023_end,2023-12-31,0.108.0,2023-12-26 20:25:32.221935+00:00,ok,fastapi,fastapi,2,False,True,True,True
+App/Service,fastapi,fastapi,2024_end,2024-12-31,0.115.6,2024-12-03 22:45:59.368085+00:00,ok,fastapi,fastapi,3,False,True,True,True
+App/Service,fastapi,fastapi,2025_end,2025-12-31,0.128.0,2025-12-27 15:21:12.154321+00:00,ok,fastapi,fastapi,4,False,True,True,True
+App/Service,fastapi,fastapi,2026_current,2026-06-16,0.137.1,2026-06-15 11:28:19.523192+00:00,ok,fastapi,fastapi,5,False,True,True,True
+App/Service,gradio,gradio,2022_end,2022-12-31,3.15.0,2022-12-21 16:36:52.026530+00:00,ok,gradio,gradio,1,False,True,True,True
+App/Service,gradio,gradio,2023_end,2023-12-31,4.12.0,2023-12-22 21:09:15.957834+00:00,ok,gradio,gradio,2,False,True,True,True
+App/Service,gradio,gradio,2024_end,2024-12-31,5.9.1,2024-12-16 23:26:54.825852+00:00,ok,gradio,gradio,3,False,True,True,True
+App/Service,gradio,gradio,2025_end,2025-12-31,6.2.0,2025-12-19 18:29:34.922496+00:00,ok,gradio,gradio,4,False,True,True,True
+App/Service,gradio,gradio,2026_current,2026-06-16,6.18.0,2026-06-11 23:57:14.196249+00:00,ok,gradio,gradio,5,False,True,True,True
+App/Service,modal,modal,2022_end,2022-12-31,,,not_released_yet,modal,modal,1,True,False,False,False
+App/Service,modal,modal,2023_end,2023-12-31,0.56.4390,2023-12-29 00:31:05.369762+00:00,ok,modal,modal,2,False,True,True,True
+App/Service,modal,modal,2024_end,2024-12-31,0.70.2,2024-12-30 13:33:15.317042+00:00,ok,modal,modal,3,False,True,True,True
+App/Service,modal,modal,2025_end,2025-12-31,1.3.0.post1,2025-12-20 02:47:53.726469+00:00,ok,modal,modal,4,False,True,True,True
+App/Service,modal,modal,2026_current,2026-06-16,1.5.0,2026-06-09 22:37:24.608185+00:00,ok,modal,modal,5,False,True,True,True
+App/Service,streamlit,streamlit,2022_end,2022-12-31,1.16.0,2022-12-15 00:02:23.223856+00:00,ok,streamlit,streamlit,1,False,True,True,True
+App/Service,streamlit,streamlit,2023_end,2023-12-31,1.29.0,2023-11-30 20:05:42.901447+00:00,ok,streamlit,streamlit,2,False,True,True,True
+App/Service,streamlit,streamlit,2024_end,2024-12-31,1.41.1,2024-12-13 21:22:11.100767+00:00,ok,streamlit,streamlit,3,False,True,True,True
+App/Service,streamlit,streamlit,2025_end,2025-12-31,1.52.2,2025-12-17 17:07:57.670782+00:00,ok,streamlit,streamlit,4,False,True,True,True
+App/Service,streamlit,streamlit,2026_current,2026-06-16,1.58.0,2026-05-28 18:02:41.993705+00:00,ok,streamlit,streamlit,5,False,True,True,True
+Framework/Agent,autogen-agentchat,autogen-agentchat,2022_end,2022-12-31,,,not_released_yet,autogen-agentchat,autogen-agentchat,1,True,False,False,False
+Framework/Agent,autogen-agentchat,autogen-agentchat,2023_end,2023-12-31,,,not_released_yet,autogen-agentchat,autogen-agentchat,2,True,False,False,False
+Framework/Agent,autogen-agentchat,autogen-agentchat,2024_end,2024-12-31,0.2.40,2024-12-15 06:10:41.952685+00:00,ok,autogen-agentchat,autogen-agentchat,3,False,True,True,True
+Framework/Agent,autogen-agentchat,autogen-agentchat,2025_end,2025-12-31,0.7.5,2025-09-30 06:16:12.895879+00:00,ok,autogen-agentchat,autogen-agentchat,4,False,True,True,True
+Framework/Agent,autogen-agentchat,autogen-agentchat,2026_current,2026-06-16,0.7.5,2025-09-30 06:16:12.895879+00:00,ok,autogen-agentchat,autogen-agentchat,5,False,True,True,True
+Framework/Agent,autogen-core,autogen-core,2022_end,2022-12-31,,,not_released_yet,autogen-core,autogen-core,1,True,False,False,False
+Framework/Agent,autogen-core,autogen-core,2023_end,2023-12-31,,,not_released_yet,autogen-core,autogen-core,2,True,False,False,False
+Framework/Agent,autogen-core,autogen-core,2024_end,2024-12-31,0.0.2,2024-08-16 21:40:32.368290+00:00,ok,autogen-core,autogen-core,3,False,True,True,True
+Framework/Agent,autogen-core,autogen-core,2025_end,2025-12-31,0.7.5,2025-09-30 06:16:24.306172+00:00,ok,autogen-core,autogen-core,4,False,True,True,True
+Framework/Agent,autogen-core,autogen-core,2026_current,2026-06-16,0.7.5,2025-09-30 06:16:24.306172+00:00,ok,autogen-core,autogen-core,5,False,True,True,True
+Framework/Agent,crewai,crewai,2022_end,2022-12-31,,,not_released_yet,crewai,crewai,1,True,False,False,False
+Framework/Agent,crewai,crewai,2023_end,2023-12-31,0.1.14,2023-12-30 14:12:18.851950+00:00,ok,crewai,crewai,2,False,True,True,True
+Framework/Agent,crewai,crewai,2024_end,2024-12-31,0.86.0,2024-12-05 16:52:49.334919+00:00,ok,crewai,crewai,3,False,True,True,True
+Framework/Agent,crewai,crewai,2025_end,2025-12-31,1.7.2,2025-12-19 21:43:59.147181+00:00,ok,crewai,crewai,4,False,True,True,True
+Framework/Agent,crewai,crewai,2026_current,2026-06-16,1.14.7,2026-06-11 17:14:39.912300+00:00,ok,crewai,crewai,5,False,True,True,True
+Framework/Agent,haystack-ai,haystack-ai,2022_end,2022-12-31,,,not_released_yet,haystack-ai,haystack-ai,1,True,False,False,False
+Framework/Agent,haystack-ai,haystack-ai,2023_end,2023-12-31,,,not_released_yet,haystack-ai,haystack-ai,2,True,False,False,False
+Framework/Agent,haystack-ai,haystack-ai,2024_end,2024-12-31,2.8.0,2024-12-05 11:26:38.502324+00:00,ok,haystack-ai,haystack-ai,3,False,True,True,True
+Framework/Agent,haystack-ai,haystack-ai,2025_end,2025-12-31,2.21.0,2025-12-08 15:47:41.878178+00:00,ok,haystack-ai,haystack-ai,4,False,True,True,True
+Framework/Agent,haystack-ai,haystack-ai,2026_current,2026-06-16,2.30.1,2026-06-09 13:26:41.324403+00:00,ok,haystack-ai,haystack-ai,5,False,True,True,True
+Framework/Agent,langchain,langchain,2022_end,2022-12-31,0.0.53,2022-12-30 16:05:07.205264+00:00,ok,langchain,langchain,1,False,True,True,True
+Framework/Agent,langchain,langchain,2023_end,2023-12-31,0.0.353,2023-12-29 17:10:05.896010+00:00,ok,langchain,langchain,2,False,True,True,True
+Framework/Agent,langchain,langchain,2024_end,2024-12-31,0.3.13,2024-12-18 20:38:38.678730+00:00,ok,langchain,langchain,3,False,True,True,True
+Framework/Agent,langchain,langchain,2025_end,2025-12-31,1.2.0,2025-12-15 14:51:40.802816+00:00,ok,langchain,langchain,4,False,True,True,True
+Framework/Agent,langchain,langchain,2026_current,2026-06-16,1.3.9,2026-06-12 16:53:25.489345+00:00,ok,langchain,langchain,5,False,True,True,True
+Framework/Agent,langchain-community,langchain-community,2022_end,2022-12-31,,,not_released_yet,langchain-community,langchain-community,1,True,False,False,False
+Framework/Agent,langchain-community,langchain-community,2023_end,2023-12-31,0.0.7,2023-12-29 18:13:44.937428+00:00,ok,langchain-community,langchain-community,2,False,True,True,True
+Framework/Agent,langchain-community,langchain-community,2024_end,2024-12-31,0.3.13,2024-12-19 14:48:47.585692+00:00,ok,langchain-community,langchain-community,3,False,True,True,True
+Framework/Agent,langchain-community,langchain-community,2025_end,2025-12-31,0.4.1,2025-10-27 15:20:30.767042+00:00,ok,langchain-community,langchain-community,4,False,True,True,True
+Framework/Agent,langchain-community,langchain-community,2026_current,2026-06-16,0.4.2,2026-05-22 19:42:57.103325+00:00,ok,langchain-community,langchain-community,5,False,True,True,True
+Framework/Agent,langchain-core,langchain-core,2022_end,2022-12-31,,,not_released_yet,langchain-core,langchain-core,1,True,False,False,False
+Framework/Agent,langchain-core,langchain-core,2023_end,2023-12-31,0.1.4,2023-12-29 16:36:24.351660+00:00,ok,langchain-core,langchain-core,2,False,True,True,True
+Framework/Agent,langchain-core,langchain-core,2024_end,2024-12-31,0.3.28,2024-12-19 22:56:00.680371+00:00,ok,langchain-core,langchain-core,3,False,True,True,True
+Framework/Agent,langchain-core,langchain-core,2025_end,2025-12-31,0.3.81,2025-12-23 01:02:27.008771+00:00,ok,langchain-core,langchain-core,4,False,True,True,True
+Framework/Agent,langchain-core,langchain-core,2026_current,2026-06-16,1.4.7,2026-06-12 19:23:55.826877+00:00,ok,langchain-core,langchain-core,5,False,True,True,True
+Framework/Agent,langchain-openai,langchain-openai,2022_end,2022-12-31,,,not_released_yet,langchain-openai,langchain-openai,1,True,False,False,False
+Framework/Agent,langchain-openai,langchain-openai,2023_end,2023-12-31,,,not_released_yet,langchain-openai,langchain-openai,2,True,False,False,False
+Framework/Agent,langchain-openai,langchain-openai,2024_end,2024-12-31,0.2.14,2024-12-19 21:51:39.300486+00:00,ok,langchain-openai,langchain-openai,3,False,True,True,True
+Framework/Agent,langchain-openai,langchain-openai,2025_end,2025-12-31,1.1.6,2025-12-18 17:58:51.527876+00:00,ok,langchain-openai,langchain-openai,4,False,True,True,True
+Framework/Agent,langchain-openai,langchain-openai,2026_current,2026-06-16,1.3.2,2026-06-13 05:42:11.088321+00:00,ok,langchain-openai,langchain-openai,5,False,True,True,True
+Framework/Agent,langgraph,langgraph,2022_end,2022-12-31,,,not_released_yet,langgraph,langgraph,1,True,False,False,False
+Framework/Agent,langgraph,langgraph,2023_end,2023-12-31,,,not_released_yet,langgraph,langgraph,2,True,False,False,False
+Framework/Agent,langgraph,langgraph,2024_end,2024-12-31,0.2.60,2024-12-18 13:59:24.745851+00:00,ok,langgraph,langgraph,3,False,True,True,True
+Framework/Agent,langgraph,langgraph,2025_end,2025-12-31,1.0.5,2025-12-12 23:05:46.499684+00:00,ok,langgraph,langgraph,4,False,True,True,True
+Framework/Agent,langgraph,langgraph,2026_current,2026-06-16,1.2.5,2026-06-12 20:30:57.018974+00:00,ok,langgraph,langgraph,5,False,True,True,True
+Framework/Agent,llama-index,llama-index,2022_end,2022-12-31,,,not_released_yet,llama-index,llama-index,1,True,False,False,False
+Framework/Agent,llama-index,llama-index,2023_end,2023-12-31,0.9.24,2023-12-30 16:51:55.906658+00:00,ok,llama-index,llama-index,2,False,True,True,True
+Framework/Agent,llama-index,llama-index,2024_end,2024-12-31,0.12.8,2024-12-21 03:37:39.653365+00:00,ok,llama-index,llama-index,3,False,True,True,True
+Framework/Agent,llama-index,llama-index,2025_end,2025-12-31,0.14.12,2025-12-30 01:06:55.123469+00:00,ok,llama-index,llama-index,4,False,True,True,True
+Framework/Agent,llama-index,llama-index,2026_current,2026-06-16,0.14.22,2026-05-14 20:22:19.611321+00:00,ok,llama-index,llama-index,5,False,True,True,True
+Framework/Agent,openai-agents,openai-agents,2022_end,2022-12-31,,,not_released_yet,openai-agents,openai-agents,1,True,False,False,False
+Framework/Agent,openai-agents,openai-agents,2023_end,2023-12-31,,,not_released_yet,openai-agents,openai-agents,2,True,False,False,False
+Framework/Agent,openai-agents,openai-agents,2024_end,2024-12-31,,,not_released_yet,openai-agents,openai-agents,3,True,False,False,False
+Framework/Agent,openai-agents,openai-agents,2025_end,2025-12-31,0.6.4,2025-12-19 06:42:53.920292+00:00,ok,openai-agents,openai-agents,4,False,True,True,True
+Framework/Agent,openai-agents,openai-agents,2026_current,2026-06-16,0.17.5,2026-06-11 04:12:32.485261+00:00,ok,openai-agents,openai-agents,5,False,True,True,True
+Framework/Agent,pydantic-ai,pydantic-ai,2022_end,2022-12-31,,,not_released_yet,pydantic-ai,pydantic-ai,1,True,False,False,False
+Framework/Agent,pydantic-ai,pydantic-ai,2023_end,2023-12-31,,,not_released_yet,pydantic-ai,pydantic-ai,2,True,False,False,False
+Framework/Agent,pydantic-ai,pydantic-ai,2024_end,2024-12-31,0.0.16,2024-12-30 20:33:20.601494+00:00,ok,pydantic-ai,pydantic-ai,3,False,True,True,True
+Framework/Agent,pydantic-ai,pydantic-ai,2025_end,2025-12-31,1.39.0,2025-12-24 03:33:59.844535+00:00,ok,pydantic-ai,pydantic-ai,4,False,True,True,True
+Framework/Agent,pydantic-ai,pydantic-ai,2026_current,2026-06-16,1.107.0,2026-06-10 14:53:00.570125+00:00,ok,pydantic-ai,pydantic-ai,5,False,True,True,True
+Framework/Agent,semantic-kernel,semantic-kernel,2022_end,2022-12-31,,,not_released_yet,semantic-kernel,semantic-kernel,1,True,False,False,False
+Framework/Agent,semantic-kernel,semantic-kernel,2023_end,2023-12-31,,,not_released_yet,semantic-kernel,semantic-kernel,2,True,False,False,False
+Framework/Agent,semantic-kernel,semantic-kernel,2024_end,2024-12-31,1.17.1,2024-12-19 22:32:03.465002+00:00,ok,semantic-kernel,semantic-kernel,3,False,True,True,True
+Framework/Agent,semantic-kernel,semantic-kernel,2025_end,2025-12-31,1.39.0,2025-11-26 02:49:31.162533+00:00,ok,semantic-kernel,semantic-kernel,4,False,True,True,True
+Framework/Agent,semantic-kernel,semantic-kernel,2026_current,2026-06-16,1.43.0,2026-06-03 22:41:25.497942+00:00,ok,semantic-kernel,semantic-kernel,5,False,True,True,True
+LLM API,anthropic,anthropic,2022_end,2022-12-31,,,not_released_yet,anthropic,anthropic,1,True,False,False,False
+LLM API,anthropic,anthropic,2023_end,2023-12-31,0.8.1,2023-12-22 14:54:32.302927+00:00,ok,anthropic,anthropic,2,False,True,True,True
+LLM API,anthropic,anthropic,2024_end,2024-12-31,0.42.0,2024-12-17 20:41:57.361461+00:00,ok,anthropic,anthropic,3,False,True,True,True
+LLM API,anthropic,anthropic,2025_end,2025-12-31,0.75.0,2025-11-24 20:41:43.587237+00:00,ok,anthropic,anthropic,4,False,True,True,True
+LLM API,anthropic,anthropic,2026_current,2026-06-16,0.109.2,2026-06-15 17:30:23.124596+00:00,ok,anthropic,anthropic,5,False,True,True,True
+LLM API,cohere,cohere,2022_end,2022-12-31,3.1.3,2022-12-23 22:01:29.620124+00:00,ok,cohere,cohere,1,False,True,True,True
+LLM API,cohere,cohere,2023_end,2023-12-31,4.39,2023-12-15 17:40:47.148097+00:00,ok,cohere,cohere,2,False,True,True,True
+LLM API,cohere,cohere,2024_end,2024-12-31,5.13.4,2024-12-20 11:59:18.168253+00:00,ok,cohere,cohere,3,False,True,True,True
+LLM API,cohere,cohere,2025_end,2025-12-31,5.20.1,2025-12-18 16:39:49.504059+00:00,ok,cohere,cohere,4,False,True,True,True
+LLM API,cohere,cohere,2026_current,2026-06-16,7.0.4,2026-06-11 15:17:51.247766+00:00,ok,cohere,cohere,5,False,True,True,True
+LLM API,google-genai,google-genai,2022_end,2022-12-31,,,not_released_yet,google-genai,google-genai,1,True,False,False,False
+LLM API,google-genai,google-genai,2023_end,2023-12-31,,,not_released_yet,google-genai,google-genai,2,True,False,False,False
+LLM API,google-genai,google-genai,2024_end,2024-12-31,0.3.0,2024-12-17 19:21:22.888548+00:00,ok,google-genai,google-genai,3,False,True,True,True
+LLM API,google-genai,google-genai,2025_end,2025-12-31,1.56.0,2025-12-17 12:35:03.717535+00:00,ok,google-genai,google-genai,4,False,True,True,True
+LLM API,google-genai,google-genai,2026_current,2026-06-16,2.8.0,2026-06-03 22:55:36.598166+00:00,ok,google-genai,google-genai,5,False,True,True,True
+LLM API,google-generativeai,google-generativeai,2022_end,2022-12-31,,,not_released_yet,google-generativeai,google-generativeai,1,True,False,False,False
+LLM API,google-generativeai,google-generativeai,2023_end,2023-12-31,0.3.2,2023-12-20 06:03:42.203730+00:00,ok,google-generativeai,google-generativeai,2,False,True,True,True
+LLM API,google-generativeai,google-generativeai,2024_end,2024-12-31,0.8.3,2024-10-07 15:46:08.699989+00:00,ok,google-generativeai,google-generativeai,3,False,True,True,True
+LLM API,google-generativeai,google-generativeai,2025_end,2025-12-31,0.8.6,2025-12-16 17:53:58.610776+00:00,ok,google-generativeai,google-generativeai,4,False,True,True,True
+LLM API,google-generativeai,google-generativeai,2026_current,2026-06-16,0.8.6,2025-12-16 17:53:58.610776+00:00,ok,google-generativeai,google-generativeai,5,False,True,True,True
+LLM API,groq,groq,2022_end,2022-12-31,,,not_released_yet,groq,groq,1,True,False,False,False
+LLM API,groq,groq,2023_end,2023-12-31,0.0.1,2023-11-02 01:26:19.408906+00:00,ok,groq,groq,2,False,True,True,True
+LLM API,groq,groq,2024_end,2024-12-31,0.13.1,2024-12-15 08:50:26.091809+00:00,ok,groq,groq,3,False,True,True,True
+LLM API,groq,groq,2025_end,2025-12-31,1.0.0,2025-12-17 23:34:21.957911+00:00,ok,groq,groq,4,False,True,True,True
+LLM API,groq,groq,2026_current,2026-06-16,1.4.0,2026-05-28 03:11:46.230890+00:00,ok,groq,groq,5,False,True,True,True
+LLM API,litellm,litellm,2022_end,2022-12-31,,,not_released_yet,litellm,litellm,1,True,False,False,False
+LLM API,litellm,litellm,2023_end,2023-12-31,1.16.8,2023-12-30 16:21:36.089573+00:00,ok,litellm,litellm,2,False,True,True,True
+LLM API,litellm,litellm,2024_end,2024-12-31,1.56.4,2024-12-29 04:41:56.712402+00:00,ok,litellm,litellm,3,False,True,True,True
+LLM API,litellm,litellm,2025_end,2025-12-31,1.80.11,2025-12-22 12:47:26.469590+00:00,ok,litellm,litellm,4,False,True,True,True
+LLM API,litellm,litellm,2026_current,2026-06-16,1.88.2,2026-06-14 02:32:48.204568+00:00,ok,litellm,litellm,5,False,True,True,True
+LLM API,mistralai,mistralai,2022_end,2022-12-31,,,not_released_yet,mistralai,mistralai,1,True,False,False,False
+LLM API,mistralai,mistralai,2023_end,2023-12-31,0.0.9,2023-12-20 20:26:00.637456+00:00,ok,mistralai,mistralai,2,False,True,True,True
+LLM API,mistralai,mistralai,2024_end,2024-12-31,1.2.5,2024-12-04 15:33:23.290403+00:00,ok,mistralai,mistralai,3,False,True,True,True
+LLM API,mistralai,mistralai,2025_end,2025-12-31,1.10.0,2025-12-17 09:34:49.214409+00:00,ok,mistralai,mistralai,4,False,True,True,True
+LLM API,mistralai,mistralai,2026_current,2026-06-16,2.4.9,2026-06-03 13:04:20.694108+00:00,ok,mistralai,mistralai,5,False,True,True,True
+LLM API,openai,openai,2022_end,2022-12-31,0.25.0,2022-11-02 19:49:07.292023+00:00,ok,openai,openai,1,False,True,True,True
+LLM API,openai,openai,2023_end,2023-12-31,1.6.1,2023-12-22 11:07:28.955718+00:00,ok,openai,openai,2,False,True,True,True
+LLM API,openai,openai,2024_end,2024-12-31,1.58.1,2024-12-17 20:02:26.503194+00:00,ok,openai,openai,3,False,True,True,True
+LLM API,openai,openai,2025_end,2025-12-31,2.14.0,2025-12-19 03:28:43.727437+00:00,ok,openai,openai,4,False,True,True,True
+LLM API,openai,openai,2026_current,2026-06-16,2.41.1,2026-06-10 16:10:35.756209+00:00,ok,openai,openai,5,False,True,True,True
+LLM API,replicate,replicate,2022_end,2022-12-31,0.4.0,2022-09-14 18:10:27.750388+00:00,ok,replicate,replicate,1,False,True,True,True
+LLM API,replicate,replicate,2023_end,2023-12-31,0.22.0,2023-12-08 12:45:14.197101+00:00,ok,replicate,replicate,2,False,True,True,True
+LLM API,replicate,replicate,2024_end,2024-12-31,1.0.4,2024-11-25 12:36:47.252376+00:00,ok,replicate,replicate,3,False,True,True,True
+LLM API,replicate,replicate,2025_end,2025-12-31,1.0.7,2025-05-27 11:29:06.801619+00:00,ok,replicate,replicate,4,False,True,True,True
+LLM API,replicate,replicate,2026_current,2026-06-16,1.0.7,2025-05-27 11:29:06.801619+00:00,ok,replicate,replicate,5,False,True,True,True
+LLM API,together,together,2022_end,2022-12-31,,,not_released_yet,together,together,1,True,False,False,False
+LLM API,together,together,2023_end,2023-12-31,0.2.10,2023-12-08 21:54:47.416706+00:00,ok,together,together,2,False,True,True,True
+LLM API,together,together,2024_end,2024-12-31,1.3.10,2024-12-18 22:59:13.030999+00:00,ok,together,together,3,False,True,True,True
+LLM API,together,together,2025_end,2025-12-31,1.5.34,2025-12-23 14:23:19.685261+00:00,ok,together,together,4,False,True,True,True
+LLM API,together,together,2026_current,2026-06-16,2.16.0,2026-05-23 15:19:23.281174+00:00,ok,together,together,5,False,True,True,True
+Model Runtime,accelerate,accelerate,2022_end,2022-12-31,0.15.0,2022-12-01 20:34:57.083819+00:00,ok,accelerate,accelerate,1,False,True,True,True
+Model Runtime,accelerate,accelerate,2023_end,2023-12-31,0.25.0,2023-12-01 14:33:27.268704+00:00,ok,accelerate,accelerate,2,False,True,True,True
+Model Runtime,accelerate,accelerate,2024_end,2024-12-31,1.2.1,2024-12-13 18:54:30.970210+00:00,ok,accelerate,accelerate,3,False,True,True,True
+Model Runtime,accelerate,accelerate,2025_end,2025-12-31,1.12.0,2025-11-21 11:27:44.522811+00:00,ok,accelerate,accelerate,4,False,True,True,True
+Model Runtime,accelerate,accelerate,2026_current,2026-06-16,1.14.0,2026-06-11 13:45:50.477469+00:00,ok,accelerate,accelerate,5,False,True,True,True
+Model Runtime,bitsandbytes,bitsandbytes,2022_end,2022-12-31,0.35.4,2022-11-01 01:34:04.986346+00:00,ok,bitsandbytes,bitsandbytes,1,False,True,True,True
+Model Runtime,bitsandbytes,bitsandbytes,2023_end,2023-12-31,0.41.3.post2,2023-12-11 22:34:46.739410+00:00,ok,bitsandbytes,bitsandbytes,2,False,True,True,True
+Model Runtime,bitsandbytes,bitsandbytes,2024_end,2024-12-31,0.45.0,2024-12-05 16:05:19.724762+00:00,ok,bitsandbytes,bitsandbytes,3,False,True,True,True
+Model Runtime,bitsandbytes,bitsandbytes,2025_end,2025-12-31,0.49.0,2025-12-11 20:50:39.645957+00:00,ok,bitsandbytes,bitsandbytes,4,False,True,True,True
+Model Runtime,bitsandbytes,bitsandbytes,2026_current,2026-06-16,0.49.2,2026-02-16 21:26:04.572106+00:00,ok,bitsandbytes,bitsandbytes,5,False,True,True,True
+Model Runtime,datasets,datasets,2022_end,2022-12-31,2.8.0,2022-12-19 10:53:05.657318+00:00,ok,datasets,datasets,1,False,True,True,True
+Model Runtime,datasets,datasets,2023_end,2023-12-31,2.16.1,2023-12-30 16:45:45.158960+00:00,ok,datasets,datasets,2,False,True,True,True
+Model Runtime,datasets,datasets,2024_end,2024-12-31,3.2.0,2024-12-10 16:56:34.742574+00:00,ok,datasets,datasets,3,False,True,True,True
+Model Runtime,datasets,datasets,2025_end,2025-12-31,4.4.2,2025-12-19 15:03:07.087277+00:00,ok,datasets,datasets,4,False,True,True,True
+Model Runtime,datasets,datasets,2026_current,2026-06-16,5.0.0,2026-06-05 13:18:24.435738+00:00,ok,datasets,datasets,5,False,True,True,True
+Model Runtime,diffusers,diffusers,2022_end,2022-12-31,0.11.1,2022-12-20 16:29:48.941950+00:00,ok,diffusers,diffusers,1,False,True,True,True
+Model Runtime,diffusers,diffusers,2023_end,2023-12-31,0.25.0,2023-12-27 13:46:53.888674+00:00,ok,diffusers,diffusers,2,False,True,True,True
+Model Runtime,diffusers,diffusers,2024_end,2024-12-31,0.32.1,2024-12-25 12:21:28.797849+00:00,ok,diffusers,diffusers,3,False,True,True,True
+Model Runtime,diffusers,diffusers,2025_end,2025-12-31,0.36.0,2025-12-08 10:14:31.979452+00:00,ok,diffusers,diffusers,4,False,True,True,True
+Model Runtime,diffusers,diffusers,2026_current,2026-06-16,0.38.0,2026-05-01 05:42:12.779447+00:00,ok,diffusers,diffusers,5,False,True,True,True
+Model Runtime,huggingface-hub,huggingface-hub,2022_end,2022-12-31,0.11.1,2022-11-28 10:37:33.951066+00:00,ok,huggingface-hub,huggingface-hub,1,False,True,True,True
+Model Runtime,huggingface-hub,huggingface-hub,2023_end,2023-12-31,0.20.1,2023-12-20 11:44:43.497156+00:00,ok,huggingface-hub,huggingface-hub,2,False,True,True,True
+Model Runtime,huggingface-hub,huggingface-hub,2024_end,2024-12-31,0.27.0,2024-12-16 13:13:32.181354+00:00,ok,huggingface-hub,huggingface-hub,3,False,True,True,True
+Model Runtime,huggingface-hub,huggingface-hub,2025_end,2025-12-31,1.2.3,2025-12-12 15:31:40.339464+00:00,ok,huggingface-hub,huggingface-hub,4,False,True,True,True
+Model Runtime,huggingface-hub,huggingface-hub,2026_current,2026-06-16,1.19.0,2026-06-11 12:33:16.695868+00:00,ok,huggingface-hub,huggingface-hub,5,False,True,True,True
+Model Runtime,ollama,ollama,2022_end,2022-12-31,,,not_released_yet,ollama,ollama,1,True,False,False,False
+Model Runtime,ollama,ollama,2023_end,2023-12-31,,,not_released_yet,ollama,ollama,2,True,False,False,False
+Model Runtime,ollama,ollama,2024_end,2024-12-31,0.4.5,2024-12-29 23:11:33.327833+00:00,ok,ollama,ollama,3,False,True,True,True
+Model Runtime,ollama,ollama,2025_end,2025-12-31,0.6.1,2025-11-13 23:02:16.292573+00:00,ok,ollama,ollama,4,False,True,True,True
+Model Runtime,ollama,ollama,2026_current,2026-06-16,0.6.2,2026-04-29 21:21:13.794041+00:00,ok,ollama,ollama,5,False,True,True,True
+Model Runtime,peft,peft,2022_end,2022-12-31,,,not_released_yet,peft,peft,1,True,False,False,False
+Model Runtime,peft,peft,2023_end,2023-12-31,0.7.1,2023-12-12 17:07:20.093796+00:00,ok,peft,peft,2,False,True,True,True
+Model Runtime,peft,peft,2024_end,2024-12-31,0.14.0,2024-12-06 11:37:41.602895+00:00,ok,peft,peft,3,False,True,True,True
+Model Runtime,peft,peft,2025_end,2025-12-31,0.18.0,2025-11-13 11:13:03.664194+00:00,ok,peft,peft,4,False,True,True,True
+Model Runtime,peft,peft,2026_current,2026-06-16,0.19.1,2026-04-16 15:46:42.886694+00:00,ok,peft,peft,5,False,True,True,True
+Model Runtime,safetensors,safetensors,2022_end,2022-12-31,0.2.7,2022-12-27 09:35:56.758007+00:00,ok,safetensors,safetensors,1,False,True,True,True
+Model Runtime,safetensors,safetensors,2023_end,2023-12-31,0.4.1,2023-11-27 11:16:48.265471+00:00,ok,safetensors,safetensors,2,False,True,True,True
+Model Runtime,safetensors,safetensors,2024_end,2024-12-31,0.4.5,2024-09-05 13:46:21.792488+00:00,ok,safetensors,safetensors,3,False,True,True,True
+Model Runtime,safetensors,safetensors,2025_end,2025-12-31,0.7.0,2025-11-19 15:18:09.790508+00:00,ok,safetensors,safetensors,4,False,True,True,True
+Model Runtime,safetensors,safetensors,2026_current,2026-06-16,0.8.0,2026-06-09 07:52:07.624876+00:00,ok,safetensors,safetensors,5,False,True,True,True
+Model Runtime,sentence-transformers,sentence-transformers,2022_end,2022-12-31,2.2.2,2022-06-26 19:50:11.137459+00:00,ok,sentence-transformers,sentence-transformers,1,False,True,True,True
+Model Runtime,sentence-transformers,sentence-transformers,2023_end,2023-12-31,2.2.2,2022-06-26 19:50:11.137459+00:00,ok,sentence-transformers,sentence-transformers,2,False,True,True,True
+Model Runtime,sentence-transformers,sentence-transformers,2024_end,2024-12-31,3.3.1,2024-11-18 14:37:38.579151+00:00,ok,sentence-transformers,sentence-transformers,3,False,True,True,True
+Model Runtime,sentence-transformers,sentence-transformers,2025_end,2025-12-31,5.2.0,2025-12-11 14:12:29.516389+00:00,ok,sentence-transformers,sentence-transformers,4,False,True,True,True
+Model Runtime,sentence-transformers,sentence-transformers,2026_current,2026-06-16,5.5.1,2026-05-20 07:37:43.004108+00:00,ok,sentence-transformers,sentence-transformers,5,False,True,True,True
+Model Runtime,sentencepiece,sentencepiece,2022_end,2022-12-31,0.1.97,2022-08-07 07:55:52.456690+00:00,ok,sentencepiece,sentencepiece,1,False,True,True,True
+Model Runtime,sentencepiece,sentencepiece,2023_end,2023-12-31,0.1.99,2023-05-02 04:24:29.785773+00:00,ok,sentencepiece,sentencepiece,2,False,True,True,True
+Model Runtime,sentencepiece,sentencepiece,2024_end,2024-12-31,0.2.0,2024-02-19 17:03:42.876797+00:00,ok,sentencepiece,sentencepiece,3,False,True,True,True
+Model Runtime,sentencepiece,sentencepiece,2025_end,2025-12-31,0.2.1,2025-08-12 06:58:59.807765+00:00,ok,sentencepiece,sentencepiece,4,False,True,True,True
+Model Runtime,sentencepiece,sentencepiece,2026_current,2026-06-16,0.2.1,2025-08-12 06:58:59.807765+00:00,ok,sentencepiece,sentencepiece,5,False,True,True,True
+Model Runtime,tiktoken,tiktoken,2022_end,2022-12-31,0.1.1,2022-12-15 02:26:44.533096+00:00,ok,tiktoken,tiktoken,1,False,True,True,True
+Model Runtime,tiktoken,tiktoken,2023_end,2023-12-31,0.5.2,2023-12-03 08:59:16.833987+00:00,ok,tiktoken,tiktoken,2,False,True,True,True
+Model Runtime,tiktoken,tiktoken,2024_end,2024-12-31,0.8.0,2024-10-03 22:43:17.292949+00:00,ok,tiktoken,tiktoken,3,False,True,True,True
+Model Runtime,tiktoken,tiktoken,2025_end,2025-12-31,0.12.0,2025-10-06 20:21:34.098716+00:00,ok,tiktoken,tiktoken,4,False,True,True,True
+Model Runtime,tiktoken,tiktoken,2026_current,2026-06-16,0.13.0,2026-05-15 04:50:11.229746+00:00,ok,tiktoken,tiktoken,5,False,True,True,True
+Model Runtime,tokenizers,tokenizers,2022_end,2022-12-31,0.13.2,2022-11-07 08:03:29.703297+00:00,ok,tokenizers,tokenizers,1,False,True,True,True
+Model Runtime,tokenizers,tokenizers,2023_end,2023-12-31,0.15.0,2023-11-14 19:03:50.244309+00:00,ok,tokenizers,tokenizers,2,False,True,True,True
+Model Runtime,tokenizers,tokenizers,2024_end,2024-12-31,0.21.0,2024-11-27 13:10:51.315959+00:00,ok,tokenizers,tokenizers,3,False,True,True,True
+Model Runtime,tokenizers,tokenizers,2025_end,2025-12-31,0.22.1,2025-09-19 09:48:56.701418+00:00,ok,tokenizers,tokenizers,4,False,True,True,True
+Model Runtime,tokenizers,tokenizers,2026_current,2026-06-16,0.23.1,2026-04-27 14:43:01.241259+00:00,ok,tokenizers,tokenizers,5,False,True,True,True
+Model Runtime,torch,torch,2022_end,2022-12-31,1.13.1,2022-12-15 20:08:28.818905+00:00,ok,torch,torch,1,False,True,True,True
+Model Runtime,torch,torch,2023_end,2023-12-31,2.1.2,2023-12-14 21:46:00.348431+00:00,ok,torch,torch,2,False,True,True,True
+Model Runtime,torch,torch,2024_end,2024-12-31,2.5.1,2024-10-29 17:32:34.081220+00:00,ok,torch,torch,3,False,True,True,True
+Model Runtime,torch,torch,2025_end,2025-12-31,2.9.1,2025-11-12 15:19:56.480860+00:00,ok,torch,torch,4,False,True,True,True
+Model Runtime,torch,torch,2026_current,2026-06-16,2.12.0,2026-05-13 14:51:07.795490+00:00,ok,torch,torch,5,False,True,True,True
+Model Runtime,transformers,transformers,2022_end,2022-12-31,4.25.1,2022-12-01 21:17:38.631603+00:00,ok,transformers,transformers,1,False,True,True,True
+Model Runtime,transformers,transformers,2023_end,2023-12-31,4.36.2,2023-12-18 18:24:40.021578+00:00,ok,transformers,transformers,2,False,True,True,True
+Model Runtime,transformers,transformers,2024_end,2024-12-31,4.47.1,2024-12-17 15:42:35.100450+00:00,ok,transformers,transformers,3,False,True,True,True
+Model Runtime,transformers,transformers,2025_end,2025-12-31,4.57.3,2025-11-25 15:51:26.493424+00:00,ok,transformers,transformers,4,False,True,True,True
+Model Runtime,transformers,transformers,2026_current,2026-06-16,5.10.4,2026-06-15 17:28:26.210334+00:00,ok,transformers,transformers,5,False,True,True,True
+Model Runtime,trl,trl,2022_end,2022-12-31,0.1.0,2022-05-15 16:35:03.389149+00:00,ok,trl,trl,1,False,True,True,True
+Model Runtime,trl,trl,2023_end,2023-12-31,0.7.7,2023-12-26 09:12:46.426170+00:00,ok,trl,trl,2,False,True,True,True
+Model Runtime,trl,trl,2024_end,2024-12-31,0.13.0,2024-12-16 15:14:49.234744+00:00,ok,trl,trl,3,False,True,True,True
+Model Runtime,trl,trl,2025_end,2025-12-31,0.26.2,2025-12-18 15:49:39.983639+00:00,ok,trl,trl,4,False,True,True,True
+Model Runtime,trl,trl,2026_current,2026-06-16,1.6.0,2026-06-11 21:45:32.526285+00:00,ok,trl,trl,5,False,True,True,True
+Model Runtime,vllm,vllm,2022_end,2022-12-31,,,not_released_yet,vllm,vllm,1,True,False,False,False
+Model Runtime,vllm,vllm,2023_end,2023-12-31,0.2.6,2023-12-17 19:06:30.507901+00:00,ok,vllm,vllm,2,False,True,True,True
+Model Runtime,vllm,vllm,2024_end,2024-12-31,0.6.6.post1,2024-12-27 07:09:03.642586+00:00,ok,vllm,vllm,3,False,True,True,True
+Model Runtime,vllm,vllm,2025_end,2025-12-31,0.13.0,2025-12-19 03:30:32.741476+00:00,ok,vllm,vllm,4,False,True,True,True
+Model Runtime,vllm,vllm,2026_current,2026-06-16,0.23.0,2026-06-13 09:27:24.297218+00:00,ok,vllm,vllm,5,False,True,True,True
+RAG/Vector DB,chromadb,chromadb,2022_end,2022-12-31,,,not_released_yet,chromadb,chromadb,1,True,False,False,False
+RAG/Vector DB,chromadb,chromadb,2023_end,2023-12-31,0.4.21,2023-12-20 23:33:28.402858+00:00,ok,chromadb,chromadb,2,False,True,True,True
+RAG/Vector DB,chromadb,chromadb,2024_end,2024-12-31,0.6.0,2024-12-30 22:02:51.286394+00:00,ok,chromadb,chromadb,3,False,True,True,True
+RAG/Vector DB,chromadb,chromadb,2025_end,2025-12-31,1.4.0,2025-12-24 02:58:06.987640+00:00,ok,chromadb,chromadb,4,False,True,True,True
+RAG/Vector DB,chromadb,chromadb,2026_current,2026-06-16,1.5.9,2026-05-05 05:54:36.250931+00:00,ok,chromadb,chromadb,5,False,True,True,True
+RAG/Vector DB,faiss-cpu,faiss-cpu,2022_end,2022-12-31,1.7.3,2022-11-17 15:28:07.277560+00:00,ok,faiss-cpu,faiss-cpu,1,False,True,True,True
+RAG/Vector DB,faiss-cpu,faiss-cpu,2023_end,2023-12-31,1.7.4,2023-04-24 10:41:46.807460+00:00,ok,faiss-cpu,faiss-cpu,2,False,True,True,True
+RAG/Vector DB,faiss-cpu,faiss-cpu,2024_end,2024-12-31,1.9.0.post1,2024-11-20 02:20:02.330177+00:00,ok,faiss-cpu,faiss-cpu,3,False,True,True,True
+RAG/Vector DB,faiss-cpu,faiss-cpu,2025_end,2025-12-31,1.13.2,2025-12-24 10:27:01.419245+00:00,ok,faiss-cpu,faiss-cpu,4,False,True,True,True
+RAG/Vector DB,faiss-cpu,faiss-cpu,2026_current,2026-06-16,1.14.3,2026-06-13 02:19:03.427999+00:00,ok,faiss-cpu,faiss-cpu,5,False,True,True,True
+RAG/Vector DB,lancedb,lancedb,2022_end,2022-12-31,,,not_released_yet,lancedb,lancedb,1,True,False,False,False
+RAG/Vector DB,lancedb,lancedb,2023_end,2023-12-31,0.4.3,2023-12-30 01:06:04.573546+00:00,ok,lancedb,lancedb,2,False,True,True,True
+RAG/Vector DB,lancedb,lancedb,2024_end,2024-12-31,0.17.1,2024-12-24 18:55:52.525737+00:00,ok,lancedb,lancedb,3,False,True,True,True
+RAG/Vector DB,lancedb,lancedb,2025_end,2025-12-31,0.26.0,2025-12-16 17:16:30.699098+00:00,ok,lancedb,lancedb,4,False,True,True,True
+RAG/Vector DB,lancedb,lancedb,2026_current,2026-06-16,0.33.0,2026-05-28 20:37:55.880127+00:00,ok,lancedb,lancedb,5,False,True,True,True
+RAG/Vector DB,pinecone,pinecone,2022_end,2022-12-31,,,not_released_yet,pinecone,pinecone,1,True,False,False,False
+RAG/Vector DB,pinecone,pinecone,2023_end,2023-12-31,,,not_released_yet,pinecone,pinecone,2,True,False,False,False
+RAG/Vector DB,pinecone,pinecone,2024_end,2024-12-31,5.4.2,2024-12-09 16:02:39.154744+00:00,ok,pinecone,pinecone,3,False,True,True,True
+RAG/Vector DB,pinecone,pinecone,2025_end,2025-12-31,8.0.0,2025-11-18 18:21:25.584999+00:00,ok,pinecone,pinecone,4,False,True,True,True
+RAG/Vector DB,pinecone,pinecone,2026_current,2026-06-16,9.1.0,2026-06-03 20:28:56.870852+00:00,ok,pinecone,pinecone,5,False,True,True,True
+RAG/Vector DB,qdrant-client,qdrant-client,2022_end,2022-12-31,0.11.6,2022-12-27 13:46:38.527413+00:00,ok,qdrant-client,qdrant-client,1,False,True,True,True
+RAG/Vector DB,qdrant-client,qdrant-client,2023_end,2023-12-31,1.7.0,2023-12-08 10:42:25.747291+00:00,ok,qdrant-client,qdrant-client,2,False,True,True,True
+RAG/Vector DB,qdrant-client,qdrant-client,2024_end,2024-12-31,1.12.2,2024-12-27 17:39:37.140210+00:00,ok,qdrant-client,qdrant-client,3,False,True,True,True
+RAG/Vector DB,qdrant-client,qdrant-client,2025_end,2025-12-31,1.16.2,2025-12-12 10:58:29.282380+00:00,ok,qdrant-client,qdrant-client,4,False,True,True,True
+RAG/Vector DB,qdrant-client,qdrant-client,2026_current,2026-06-16,1.18.0,2026-05-11 14:12:36.998394+00:00,ok,qdrant-client,qdrant-client,5,False,True,True,True
+RAG/Vector DB,weaviate-client,weaviate-client,2022_end,2022-12-31,3.10.0,2022-12-20 13:23:06.293125+00:00,ok,weaviate-client,weaviate-client,1,False,True,True,True
+RAG/Vector DB,weaviate-client,weaviate-client,2023_end,2023-12-31,3.26.0,2023-12-20 09:29:58.200545+00:00,ok,weaviate-client,weaviate-client,2,False,True,True,True
+RAG/Vector DB,weaviate-client,weaviate-client,2024_end,2024-12-31,4.10.2,2024-12-13 17:04:23.377607+00:00,ok,weaviate-client,weaviate-client,3,False,True,True,True
+RAG/Vector DB,weaviate-client,weaviate-client,2025_end,2025-12-31,4.19.0,2025-12-18 15:27:31.048473+00:00,ok,weaviate-client,weaviate-client,4,False,True,True,True
+RAG/Vector DB,weaviate-client,weaviate-client,2026_current,2026-06-16,4.21.3,2026-06-02 13:03:49.281704+00:00,ok,weaviate-client,weaviate-client,5,False,True,True,True
