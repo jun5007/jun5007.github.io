@@ -15,14 +15,37 @@ The portfolio presents AI and big data coursework and projects with an emphasis 
 - EDA storytelling and model evaluation
 - Reproducibility and publishing-risk documentation
 
+## Featured Projects
+
+1. Generative AI Package Dependency Network Analysis — public data and documentation; analysis code not public
+2. Exchange-Rate and Industry Return Walk-Forward Analysis — partial public R implementation; related to one conference publication
+3. Issue & Stock Market EDA — documentation only; independent reproduction unavailable
+4. DACON ETRI Human Understanding Challenge — competition project; **Leaderboard Stage Completed**
+
 ## Competition Record
 
-- Dacon ETRI Human Understanding Challenge, 5th edition — leaderboard submission phase ended June 26, 2026
-- Public leaderboard: **1st, 0.50143**
-- Final Private leaderboard: **118th, 0.59183**
-- [Official competition schedule](https://www.dacon.io/competitions/official/236690/overview/schedule)
+The signed-in DACON participant profile and the corresponding leaderboards were checked on **2026-07-26**. Ongoing ranks are snapshots and may change.
 
-The rank and score values above are based on the participant record provided for this portfolio. A direct public leaderboard evidence link has not yet been added.
+| Competition | Status | Role | Verified Result |
+|---|---|---|---|
+| [DACON ETRI Human Understanding Challenge](https://www.dacon.io/competitions/official/236690/leaderboard) | **Leaderboard Stage Completed** | Participant; detailed personal implementation ownership is not public | Public **1st · 0.50143** · Final Private **118th · 0.59183** |
+| [2026 성균관대학교 멀티모달 AI Bias 챌린지](https://www.dacon.io/competitions/official/236722/leaderboard) | **Completed** | Participant; detailed personal responsibilities are not verified | Public **2nd · 1** · Final Private **33rd / 263 · 0.85952** |
+| [2026 Samsung Collegiate Programming Challenge : AI 챌린지](https://www.dacon.io/competitions/official/236730/leaderboard) | **Round 1 completed; advancement result pending** | Individual participant; detailed implementation scope is not public | Public snapshot **215th / 640 · 0.8686** |
+| [제3회 풍력발전량 예측 AI 경진대회 - BARAM 2026](https://www.dacon.io/competitions/official/236727/leaderboard) | **In Progress** | Participant; detailed implementation ownership is not public | Public snapshot **42nd / 763 · Total 0.65318** |
+
+ETRI is framed as *From Public Leaderboard 1st to Final Private 118th: A Post-Competition Analysis of Validation and Generalization.* The cause of the gap has not yet been verified. Validation design, model selection, probability calibration, distribution shift, and repeated leaderboard feedback are review candidates rather than confirmed causes.
+
+**Paper Status: TODO.** A paper submission or review status has not been independently verified.
+
+These entries are competition records only. They do not assert an award or unannounced advancement, and Public-stage rankings are not presented as final placements. No dedicated public repository or publishable code artifact for the three newly listed competitions is present in this workspace, and original competition data are excluded.
+
+## Publication
+
+이민성, 홍찬기, 추민주, 이석준, 우지영, “환율 민감도 기반 클러스터링과 동조지수를 이용한 산업별 월간 수익률 예측,” *한국컴퓨터정보학회 2025 하계학술대회 논문집*, 제33권 제2호, pp. 959–961, 2025.07.
+
+- [DBpia 문헌 정보](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12337990)
+- Seokjun Lee: **Co-author (4th author)**
+- 논문 원문은 저작권 및 팀 공개 범위 확인 전까지 저장소에 포함하지 않음
 
 ## Files
 
