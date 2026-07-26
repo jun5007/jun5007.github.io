@@ -5,7 +5,13 @@ Topic: Generative AI Python package dependency network analysis
 
 ## Overview
 
-This project analyzes how Python packages used in the generative AI ecosystem depend on each other. The analysis combines PyPI metadata, version snapshots, dependency edges, and representative source-code structure data to identify central packages, dependency communities, and structurally similar alternatives.
+This project analyzes how Python packages used in the generative AI ecosystem depend on each other. The analysis combines PyPI metadata, version snapshots, dependency edges, and representative source-code structure data to describe central packages, dependency communities, and structurally similar alternatives.
+
+## Quick Links
+
+- [Public data files](./data/)
+- [Public data usage guide](./docs/master_data_usage_guide.md)
+- [Presentation script](./docs/presentation_script.md)
 
 ## Research Questions
 
@@ -18,18 +24,23 @@ This project analyzes how Python packages used in the generative AI ecosystem de
 
 - 50 generative AI-related Python packages
 - 5 categories: LLM API, Framework/Agent, Model Runtime, App/Service, RAG/Vector DB
-- 5 time snapshots from 2022 year-end to 2026 current point
+- 5 time snapshots from 2022 year-end through June 16, 2026 (`2026_current` is a fixed dataset label, not live data)
 - 4,509 dependency edge records
-- 72,922 code-structure records from representative packages
-- 1,190 network/model analysis result rows
+- 72,922 code-structure records across 10 selected packages in the full local analysis dataset
+- 500 `openai` package code-structure rows published as an inspection sample
+- 1,190 network-analysis result rows
 
-## My Role
+## Published Evidence
 
-- Collected package metadata and dependency information from PyPI
-- Organized snapshot-based package versions from 2022 to 2026
-- Converted `requires_dist` metadata into source-target dependency edges
-- Built cleaned master datasets and validation tables
-- Structured network-analysis outputs for centrality, community, and alternative-package interpretation
+- 50 package-profile rows
+- 250 package-by-snapshot version rows
+- 4,509 source-target dependency-edge rows
+- 500 `openai` package code-structure sample rows
+- 1,190 centrality, community, and alternative-pair analysis rows
+
+## Reproducibility Status
+
+The published files support inspection of the cleaned outputs and the examples in the data usage guide. The original collection, cleaning, and network-generation source code is not included in this repository, so the complete pipeline cannot yet be regenerated end to end from the public materials alone.
 
 ## Methods
 
@@ -47,7 +58,7 @@ This project analyzes how Python packages used in the generative AI ecosystem de
 - Dependency edge list
 - Code import/symbol structure sample
 - Network and alternative-package analysis results
-- Project summary metrics
+- Machine-readable project summary metrics
 
 ## Improvement Notes
 
@@ -64,7 +75,7 @@ data/
   final_data_01_package_profile.csv
   final_data_02_snapshot_versions.csv
   final_data_03_dependency_edges.csv
-  final_data_04_code_structure_sample.csv
+  final_data_04_code_structure_sample.csv  # 500 openai-package rows
   final_data_05_model_analysis_results.csv
 
 docs/
@@ -74,8 +85,10 @@ docs/
 
 ## Large Local Artifacts
 
-The original project also includes a full code-structure CSV, a SQLite master database, and PDF presentation files. For a cleaner public portfolio repository, this GitHub folder publishes the cleaned summary files and a representative code-structure sample.
+The full analysis workspace also contains a 72,922-row code-structure table, a SQLite database, downloaded distributions, and presentation artifacts. They are intentionally excluded from this public portfolio folder. The five published CSV files and JSON/CSV metrics are sufficient for the examples in the [data usage guide](./docs/master_data_usage_guide.md); no local database or absolute path is required.
 
 ## Notes
 
-Local absolute paths in the original dataset were sanitized before publication.
+Local absolute paths were removed before publication. Relative paths in the code-structure sample describe source files inside the original collection workspace and are provided only as record context.
+
+Package metadata and structural records originate from distributions published through PyPI. Each upstream package retains its own license; this repository does not relicense upstream source code. The public code-structure sample contains structural fields such as paths, imports, and symbol names rather than source-code bodies.

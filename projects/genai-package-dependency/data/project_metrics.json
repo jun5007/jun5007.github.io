@@ -4,8 +4,14 @@
   "snapshot_count": 5,
   "dependency_edge_count": 4509,
   "code_structure_records": 72922,
+  "code_structure_sample_rows": 500,
+  "code_structure_sample_package_count": 1,
+  "code_structure_sample_packages": [
+    "openai"
+  ],
   "model_result_rows": 1190,
   "representative_code_packages": 10,
+  "representative_code_packages_scope": "full_local_analysis",
   "top_nodes": [
     {
       "snapshot_label": "2022_end",
@@ -270,8 +276,8 @@
         "source_version"
       ]
     },
-    "final_data_04_code_structure.csv": {
-      "rows": 72922,
+    "final_data_04_code_structure_sample.csv": {
+      "rows": 500,
       "cols": 10,
       "columns": [
         "category",
@@ -306,32 +312,6 @@
         "same_community",
         "centrality_balance",
         "alt_score"
-      ]
-    },
-    "02_master_table_catalog.csv": {
-      "rows": 16,
-      "cols": 8,
-      "columns": [
-        "table_name",
-        "group",
-        "description",
-        "source_file",
-        "row_count",
-        "column_count",
-        "columns",
-        "load_status"
-      ]
-    },
-    "03_data_loading_validation.csv": {
-      "rows": 16,
-      "cols": 6,
-      "columns": [
-        "table_name",
-        "source_file_exists",
-        "row_count",
-        "column_count",
-        "load_status",
-        "error"
       ]
     }
   }
