@@ -1,0 +1,49 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Databases, serialized models, and large columnar files
+*.sqlite
+*.sqlite.gz
+*.sqlite3
+*.db
+*.db.gz
+*.duckdb
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.zip
+
+# Large local GenAI analysis artifacts
+projects/genai-package-dependency/00_master_input_data/
+projects/genai-package-dependency/04_downloaded_distributions/
+projects/genai-package-dependency/raw_collection_project/
+projects/genai-package-dependency/artifacts/
+projects/genai-package-dependency/models/
+projects/genai-package-dependency/data/final_data_04_code_structure.csv
+projects/genai-package-dependency/data/02_master_table_catalog.csv
+projects/genai-package-dependency/data/03_data_loading_validation.csv
+projects/genai-package-dependency/**/*.pdf

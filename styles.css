@@ -7,7 +7,7 @@
   --line: #dfe5db;
   --green: #1f7a5b;
   --coral: #c95f45;
-  --gold: #a88425;
+  --gold: #6f5515;
   --shadow: 0 18px 50px rgba(31, 43, 35, 0.1);
 }
 
@@ -29,6 +29,30 @@ body {
 
 a {
   color: inherit;
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 100;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transform: translateY(-160%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+a:focus-visible {
+  outline: 3px solid var(--coral);
+  outline-offset: 3px;
 }
 
 .site-header {
@@ -59,6 +83,9 @@ nav {
 }
 
 nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: var(--muted);
   text-decoration: none;
 }
@@ -66,6 +93,10 @@ nav a {
 main {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
+}
+
+section[id] {
+  scroll-margin-top: 92px;
 }
 
 .intro {
@@ -206,6 +237,10 @@ h3 {
   font-size: 14px;
 }
 
+.competition-summary span {
+  display: block;
+}
+
 .section {
   padding: 86px 0 0;
 }
@@ -317,6 +352,12 @@ h3 {
   text-underline-offset: 4px;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+}
+
 .two-column {
   display: grid;
   grid-template-columns: 280px minmax(0, 1fr);
@@ -342,6 +383,44 @@ h3 {
   color: var(--muted);
 }
 
+.competition-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.competition-results li {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fbfcf8;
+}
+
+.competition-results span,
+.competition-results strong {
+  display: block;
+}
+
+.competition-results span {
+  margin-bottom: 4px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.competition-results strong {
+  font-size: 16px;
+}
+
+.result-source {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
 footer {
   width: min(1120px, calc(100% - 40px));
   margin: 72px auto 0;
@@ -361,6 +440,7 @@ footer {
 
   nav {
     justify-content: flex-start;
+    gap: 4px 14px;
   }
 
   .intro {
@@ -377,7 +457,8 @@ footer {
   .summary,
   .strength-grid,
   .project-details,
-  .two-column {
+  .two-column,
+  .competition-results {
     grid-template-columns: 1fr;
   }
 
@@ -392,5 +473,39 @@ footer {
 
   footer {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header {
+    gap: 6px;
+    padding: 12px 20px;
+  }
+
+  main,
+  footer {
+    width: min(100% - 32px, 1120px);
+  }
+
+  .intro {
+    padding-top: 40px;
+  }
+
+  .summary div {
+    padding: 20px;
+  }
+
+  .section {
+    padding-top: 68px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .skip-link {
+    transition: none;
   }
 }
