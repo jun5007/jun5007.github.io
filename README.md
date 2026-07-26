@@ -35,8 +35,6 @@ The signed-in DACON participant profile and the corresponding leaderboards were 
 
 ETRI is framed as *From Public Leaderboard 1st to Final Private 118th: A Post-Competition Analysis of Validation and Generalization.* The cause of the gap has not yet been verified. Validation design, model selection, probability calibration, distribution shift, and repeated leaderboard feedback are review candidates rather than confirmed causes.
 
-**Paper Status: TODO.** A paper submission or review status has not been independently verified.
-
 These entries are competition records only. They do not assert an award or unannounced advancement, and Public-stage rankings are not presented as final placements. No dedicated public repository or publishable code artifact for the three newly listed competitions is present in this workspace, and original competition data are excluded.
 
 ## Certification
