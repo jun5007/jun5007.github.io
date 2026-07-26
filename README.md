@@ -17,8 +17,8 @@ The portfolio presents AI and big data coursework and projects with an emphasis 
 
 ## Featured Projects
 
-1. Generative AI Package Dependency Network Analysis — team project using PyPI metadata and package distributions; individual contribution not listed; analysis code not public
-2. Exchange-Rate and Industry Return Walk-Forward Analysis — assigned-stock data preparation and Walk-Forward Validation contribution; partial public R implementation; related to one conference publication
+1. Generative AI Package Dependency Network Analysis — team project using PyPI metadata, version snapshots, dependency information, and package distributions; analysis code not public
+2. Exchange-Rate and Industry Return Walk-Forward Analysis — assigned-stock data collection, preprocessing, and shared-format consolidation; Walk-Forward Validation co-developed with Minsung Lee; partial public R implementation; related to one conference publication
 3. Issue & Stock Market EDA — team data collection, final data consolidation, and visualization contribution; documentation only; independent reproduction unavailable
 4. DACON ETRI Human Understanding Challenge — competition project; **Leaderboard Stage Completed**
 
@@ -33,15 +33,68 @@ The signed-in DACON participant profile and the corresponding leaderboards were 
 | [2026 Samsung Collegiate Programming Challenge : AI 챌린지](https://www.dacon.io/competitions/official/236730/leaderboard) | **Round 1 completed; advancement result pending** | Individual participant | Public snapshot **215th / 640 · 0.8686** |
 | [제3회 풍력발전량 예측 AI 경진대회 - BARAM 2026](https://www.dacon.io/competitions/official/236727/leaderboard) | **In Progress** | Individual participant | Public snapshot **42nd / 763 · Total 0.65318** |
 
-### ETRI Post-Competition Review
+## 대회 회고
 
-*From Public Leaderboard 1st to Final Private 118th: A Post-Competition Analysis of Validation and Generalization.*
+### 1. 처음의 접근 방식
 
-- **Initial approach:** Because the Public leaderboard ranking contributed to a course grade, I initially prioritized Public leaderboard performance when selecting models.
-- **What worked:** I reached Public 1st early. I then redesigned the model with Private generalization in mind; the Public rank moved to 3rd and 5th during this process, and the final submitted model returned to Public 1st.
-- **What did not:** The final Private result was 118th, showing a large Public–Private generalization gap. This outcome is consistent with model selection being overly influenced by Public leaderboard feedback and with possible overfitting, but it is not a definitive diagnosis without the full code and experiment records.
-- **What I learned:** A strong Public rank does not guarantee performance on unseen data. Repeatedly using leaderboard feedback for model decisions can favor Public-specific performance over generalization.
-- **What I will change:** In future competitions, I will prioritize robust local validation and unseen-data performance, keep clearer experiment records, and rely less on leaderboard probing. Even when Public rank affects a course grade, I will evaluate model choices against generalization estimates rather than Public rank alone.
+이 대회에서는 Public Leaderboard 순위가 교과목 성적에 반영되었기 때문에,
+초기에는 Public 점수를 높이는 것을 우선적인 목표로 두고 모델을 설계했습니다.
+
+여러 모델과 전처리 방식을 실험한 결과 Public Leaderboard 1위를 기록했고,
+그 이후에는 최종 Private 평가에서도 일반화될 수 있도록
+모델과 검증 방식을 다시 조정했습니다.
+
+이 과정에서 Public 순위가 3위와 5위로 내려가기도 했지만,
+최종 제출 모델은 다시 Public 1위를 기록했습니다.
+
+### 2. 잘된 점과 아쉬웠던 점
+
+Public Leaderboard 1위를 달성하면서
+수업 평가와 초기 목표 측면에서는 좋은 결과를 얻었습니다.
+
+하지만 최종 Private Leaderboard에서는 118위를 기록하여,
+Public에서의 높은 성능이 전체 테스트 데이터에는
+그대로 일반화되지 않았다는 사실을 확인했습니다.
+
+현재 남아 있는 자료만으로 정확한 원인을 하나로 단정할 수는 없습니다.
+다만 Public 점수를 반복적으로 확인하며 모델을 선택한 과정에서
+Public 구간의 특성에 간접적으로 맞춰졌을 가능성과,
+로컬 검증 방식이 최종 Private 데이터의 특성을
+충분히 반영하지 못했을 가능성을 돌아보게 되었습니다.
+
+### 3. 배운 점
+
+이번 경험을 통해 Public Leaderboard 순위와
+모델의 실제 일반화 성능은 서로 다른 기준이라는 점을 배웠습니다.
+
+Public 점수가 높은 모델이 반드시 최종 평가에서도
+가장 좋은 모델이 되는 것은 아니며,
+모델 자체뿐 아니라 검증 방식과 최종 제출 모델을 선택하는 기준도
+대회 결과에 큰 영향을 줄 수 있다는 점을 알게 되었습니다.
+
+또한 리더보드 결과를 확인할 때마다 모델을 변경하기보다,
+사전에 정한 로컬 검증 기준과 실험 기록을 바탕으로
+모델을 판단하는 과정이 필요하다는 점을 배웠습니다.
+
+### 4. 다음 대회에서 바꿀 점
+
+앞으로 DACON 대회에 참가할 때는 학교 성적과 Public 순위도 고려하되,
+Public 점수에만 맞춰 모델을 선택하지 않을 계획입니다.
+
+대회 시작 단계에서 먼저 데이터 구조에 적합한 검증 방식을 정하고,
+다음 항목을 체계적으로 기록하겠습니다.
+
+- 모델별 Local Validation 점수
+- Fold 및 Random Seed별 성능 변동
+- Public 점수와 Local Validation 점수의 차이
+- 모델과 Feature 변경 내역
+- 제출 파일별 결과와 선택 이유
+- 예측 확률 분포와 Calibration
+- 최종 제출 모델을 선택한 기준
+
+앞으로도 DACON 대회에 계속 참가하면서,
+순위뿐 아니라 잘못된 판단과 개선할 부분을 함께 기록하고
+이전 대회에서 배운 내용을 다음 대회의 검증과 모델 설계에 반영하겠습니다.
 
 These entries are competition records only. They do not assert an award or unannounced advancement, and Public-stage rankings are not presented as final placements. No dedicated public repository or publishable code artifact for the three newly listed competitions is present in this workspace, and original competition data are excluded.
 

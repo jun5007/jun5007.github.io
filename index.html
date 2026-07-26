@@ -102,11 +102,11 @@
             </div>
             <div role="listitem">
               <span>Project Type</span>
-              <strong>Team Project · 개인 역할은 기재하지 않음</strong>
+              <strong>Team Project</strong>
             </div>
             <div role="listitem">
               <span>Data Source</span>
-              <strong>PyPI 공식 메타데이터 API 및 패키지 배포 파일 · 2026-06-16 고정 스냅샷</strong>
+              <strong>PyPI의 Python 패키지 메타데이터, 버전 정보, 패키지 간 의존성 정보 및 배포 파일 · 2026-06-16 고정 스냅샷</strong>
             </div>
             <div role="listitem">
               <span>Public Data</span>
@@ -157,7 +157,7 @@
             </div>
             <div role="listitem">
               <span>My Role</span>
-              <strong>담당 종목 데이터 수집·전처리 및 공통 형식 정리 · 이민성과 Walk-Forward Validation 공동 설계·구현 · Co-author (4th author) · 논문 원고는 이민성 단독 작성</strong>
+              <strong>담당 종목 데이터 수집·전처리 및 공통 형식 정리 · Minsung Lee와 Walk-Forward Validation 공동 설계·구현 · Co-author (4th author) · 논문 원고는 Minsung Lee 단독 작성</strong>
             </div>
             <div role="listitem">
               <span>Public Implementation</span>
@@ -261,13 +261,83 @@
               <strong>118th · 0.59183</strong>
             </div>
           </div>
-          <ul class="project-points">
-            <li><strong>Initial approach:</strong> Public 순위가 과목 성적에 반영되어, 초기에는 Public 성능을 우선해 모델을 선택했습니다.</li>
-            <li><strong>What worked:</strong> 초기에 Public 1위를 기록했습니다. 이후 Private 일반화를 고려해 모델을 재설계하는 동안 Public 순위가 3위와 5위로 변동했으며, 최종 제출 모델은 다시 Public 1위를 기록했습니다.</li>
-            <li><strong>What did not:</strong> Final Private 118위로 Public–Private 일반화 격차가 크게 나타났습니다. 이는 모델 선택이 Public 피드백에 과도하게 영향을 받았고 과적합 가능성이 있었음을 시사하지만, 전체 코드와 실험 기록 없이 원인을 확정할 수는 없습니다.</li>
-            <li><strong>What I learned:</strong> Public 순위가 높아도 unseen data 성능을 보장하지 않으며, 반복적인 리더보드 피드백 기반 선택은 Public에 특화된 모델을 고르게 할 수 있음을 배웠습니다.</li>
-            <li><strong>What I will change:</strong> 다음 대회에서는 로컬 검증과 일반화 성능을 우선하고, 실험 기록을 체계화하며, leaderboard probing 의존도를 낮추겠습니다. 과목 성적과 별개로 unseen 성능 추정치를 기준으로 모델을 판단하겠습니다.</li>
-          </ul>
+          <div class="project-review">
+            <h4>대회 회고</h4>
+
+            <h5>1. 처음의 접근 방식</h5>
+            <p>
+              이 대회에서는 Public Leaderboard 순위가 교과목 성적에 반영되었기 때문에,
+              초기에는 Public 점수를 높이는 것을 우선적인 목표로 두고 모델을 설계했습니다.
+            </p>
+            <p>
+              여러 모델과 전처리 방식을 실험한 결과 Public Leaderboard 1위를 기록했고,
+              그 이후에는 최종 Private 평가에서도 일반화될 수 있도록
+              모델과 검증 방식을 다시 조정했습니다.
+            </p>
+            <p>
+              이 과정에서 Public 순위가 3위와 5위로 내려가기도 했지만,
+              최종 제출 모델은 다시 Public 1위를 기록했습니다.
+            </p>
+
+            <h5>2. 잘된 점과 아쉬웠던 점</h5>
+            <p>
+              Public Leaderboard 1위를 달성하면서
+              수업 평가와 초기 목표 측면에서는 좋은 결과를 얻었습니다.
+            </p>
+            <p>
+              하지만 최종 Private Leaderboard에서는 118위를 기록하여,
+              Public에서의 높은 성능이 전체 테스트 데이터에는
+              그대로 일반화되지 않았다는 사실을 확인했습니다.
+            </p>
+            <p>
+              현재 남아 있는 자료만으로 정확한 원인을 하나로 단정할 수는 없습니다.
+              다만 Public 점수를 반복적으로 확인하며 모델을 선택한 과정에서
+              Public 구간의 특성에 간접적으로 맞춰졌을 가능성과,
+              로컬 검증 방식이 최종 Private 데이터의 특성을
+              충분히 반영하지 못했을 가능성을 돌아보게 되었습니다.
+            </p>
+
+            <h5>3. 배운 점</h5>
+            <p>
+              이번 경험을 통해 Public Leaderboard 순위와
+              모델의 실제 일반화 성능은 서로 다른 기준이라는 점을 배웠습니다.
+            </p>
+            <p>
+              Public 점수가 높은 모델이 반드시 최종 평가에서도
+              가장 좋은 모델이 되는 것은 아니며,
+              모델 자체뿐 아니라 검증 방식과 최종 제출 모델을 선택하는 기준도
+              대회 결과에 큰 영향을 줄 수 있다는 점을 알게 되었습니다.
+            </p>
+            <p>
+              또한 리더보드 결과를 확인할 때마다 모델을 변경하기보다,
+              사전에 정한 로컬 검증 기준과 실험 기록을 바탕으로
+              모델을 판단하는 과정이 필요하다는 점을 배웠습니다.
+            </p>
+
+            <h5>4. 다음 대회에서 바꿀 점</h5>
+            <p>
+              앞으로 DACON 대회에 참가할 때는 학교 성적과 Public 순위도 고려하되,
+              Public 점수에만 맞춰 모델을 선택하지 않을 계획입니다.
+            </p>
+            <p>
+              대회 시작 단계에서 먼저 데이터 구조에 적합한 검증 방식을 정하고,
+              다음 항목을 체계적으로 기록하겠습니다.
+            </p>
+            <ul class="project-points">
+              <li>모델별 Local Validation 점수</li>
+              <li>Fold 및 Random Seed별 성능 변동</li>
+              <li>Public 점수와 Local Validation 점수의 차이</li>
+              <li>모델과 Feature 변경 내역</li>
+              <li>제출 파일별 결과와 선택 이유</li>
+              <li>예측 확률 분포와 Calibration</li>
+              <li>최종 제출 모델을 선택한 기준</li>
+            </ul>
+            <p>
+              앞으로도 DACON 대회에 계속 참가하면서,
+              순위뿐 아니라 잘못된 판단과 개선할 부분을 함께 기록하고
+              이전 대회에서 배운 내용을 다음 대회의 검증과 모델 설계에 반영하겠습니다.
+            </p>
+          </div>
           <div class="tags">
             <span>Competition</span>
             <span>Leaderboard Review</span>

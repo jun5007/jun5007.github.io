@@ -32,7 +32,7 @@ The project documents describe collection through the official PyPI metadata API
 | Documentation | Public in `docs/` and this README |
 | Collection / cleaning / network source code | Not present in the public folder |
 | Notebook | Not present in the public folder |
-| Project type | Team project; individual contribution is not listed |
+| Project type | Team Project |
 
 The files have not been moved or duplicated into a standalone repository.
 
