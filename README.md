@@ -17,9 +17,9 @@ The portfolio presents AI and big data coursework and projects with an emphasis 
 
 ## Featured Projects
 
-1. Generative AI Package Dependency Network Analysis — public data and documentation; analysis code not public
-2. Exchange-Rate and Industry Return Walk-Forward Analysis — partial public R implementation; related to one conference publication
-3. Issue & Stock Market EDA — documentation only; independent reproduction unavailable
+1. Generative AI Package Dependency Network Analysis — team project using PyPI metadata and package distributions; individual contribution not listed; analysis code not public
+2. Exchange-Rate and Industry Return Walk-Forward Analysis — assigned-stock data preparation and Walk-Forward Validation contribution; partial public R implementation; related to one conference publication
+3. Issue & Stock Market EDA — team data collection, final data consolidation, and visualization contribution; documentation only; independent reproduction unavailable
 4. DACON ETRI Human Understanding Challenge — competition project; **Leaderboard Stage Completed**
 
 ## Competition Record
@@ -28,12 +28,20 @@ The signed-in DACON participant profile and the corresponding leaderboards were 
 
 | Competition | Status | Role | Verified Result |
 |---|---|---|---|
-| [DACON ETRI Human Understanding Challenge](https://www.dacon.io/competitions/official/236690/leaderboard) | **Leaderboard Stage Completed** | Participant; detailed personal implementation ownership is not public | Public **1st · 0.50143** · Final Private **118th · 0.59183** |
-| [2026 성균관대학교 멀티모달 AI Bias 챌린지](https://www.dacon.io/competitions/official/236722/leaderboard) | **Completed** | Participant; detailed personal responsibilities are not verified | Public **2nd · 1** · Final Private **33rd / 263 · 0.85952** |
-| [2026 Samsung Collegiate Programming Challenge : AI 챌린지](https://www.dacon.io/competitions/official/236730/leaderboard) | **Round 1 completed; advancement result pending** | Individual participant; detailed implementation scope is not public | Public snapshot **215th / 640 · 0.8686** |
-| [제3회 풍력발전량 예측 AI 경진대회 - BARAM 2026](https://www.dacon.io/competitions/official/236727/leaderboard) | **In Progress** | Participant; detailed implementation ownership is not public | Public snapshot **42nd / 763 · Total 0.65318** |
+| [DACON ETRI Human Understanding Challenge](https://www.dacon.io/competitions/official/236690/leaderboard) | **Leaderboard Stage Completed** | Individual participant | Public **1st · 0.50143** · Final Private **118th · 0.59183** |
+| [2026 성균관대학교 멀티모달 AI Bias 챌린지](https://www.dacon.io/competitions/official/236722/leaderboard) | **Completed** | Individual participant | Public **2nd · 1** · Final Private **33rd / 263 · 0.85952** |
+| [2026 Samsung Collegiate Programming Challenge : AI 챌린지](https://www.dacon.io/competitions/official/236730/leaderboard) | **Round 1 completed; advancement result pending** | Individual participant | Public snapshot **215th / 640 · 0.8686** |
+| [제3회 풍력발전량 예측 AI 경진대회 - BARAM 2026](https://www.dacon.io/competitions/official/236727/leaderboard) | **In Progress** | Individual participant | Public snapshot **42nd / 763 · Total 0.65318** |
 
-ETRI is framed as *From Public Leaderboard 1st to Final Private 118th: A Post-Competition Analysis of Validation and Generalization.* The cause of the gap has not yet been verified. Validation design, model selection, probability calibration, distribution shift, and repeated leaderboard feedback are review candidates rather than confirmed causes.
+### ETRI Post-Competition Review
+
+*From Public Leaderboard 1st to Final Private 118th: A Post-Competition Analysis of Validation and Generalization.*
+
+- **Initial approach:** Because the Public leaderboard ranking contributed to a course grade, I initially prioritized Public leaderboard performance when selecting models.
+- **What worked:** I reached Public 1st early. I then redesigned the model with Private generalization in mind; the Public rank moved to 3rd and 5th during this process, and the final submitted model returned to Public 1st.
+- **What did not:** The final Private result was 118th, showing a large Public–Private generalization gap. This outcome is consistent with model selection being overly influenced by Public leaderboard feedback and with possible overfitting, but it is not a definitive diagnosis without the full code and experiment records.
+- **What I learned:** A strong Public rank does not guarantee performance on unseen data. Repeatedly using leaderboard feedback for model decisions can favor Public-specific performance over generalization.
+- **What I will change:** In future competitions, I will prioritize robust local validation and unseen-data performance, keep clearer experiment records, and rely less on leaderboard probing. Even when Public rank affects a course grade, I will evaluate model choices against generalization estimates rather than Public rank alone.
 
 These entries are competition records only. They do not assert an award or unannounced advancement, and Public-stage rankings are not presented as final placements. No dedicated public repository or publishable code artifact for the three newly listed competitions is present in this workspace, and original competition data are excluded.
 

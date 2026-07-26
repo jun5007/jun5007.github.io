@@ -7,6 +7,15 @@ Topic: Generative AI Python package dependency network analysis
 
 This project analyzes how Python packages used in the generative AI ecosystem depend on each other. The analysis combines PyPI metadata, version snapshots, dependency edges, and representative source-code structure data to describe central packages, dependency communities, and structurally similar alternatives.
 
+## Data Source
+
+- Source platform: [PyPI (Python Package Index)](https://pypi.org/)
+- Collected records: project metadata, release histories, and dependency declarations
+- Structural records: selected package distributions available through PyPI were parsed for file, import, and symbol structure
+- Public snapshot date: **2026-06-16**
+
+The project documents describe collection through the official PyPI metadata API, and the public tables contain PyPI project URLs and metadata fields. The collection code is not public, so the exact endpoint sequence and complete acquisition pipeline cannot be independently reproduced from this folder alone. These files do not contain package download counts or package-usage statistics.
+
 ## Quick Links
 
 - [Public data files](./data/)
@@ -23,10 +32,9 @@ This project analyzes how Python packages used in the generative AI ecosystem de
 | Documentation | Public in `docs/` and this README |
 | Collection / cleaning / network source code | Not present in the public folder |
 | Notebook | Not present in the public folder |
-| Seokjun Lee's individual contribution | Not specified in the public project records |
+| Project type | Team project; individual contribution is not listed |
 
 The files have not been moved or duplicated into a standalone repository.
-The presentation script's collective wording does not establish Seokjun Lee's individual contribution, so no personal task ownership is claimed here.
 
 ## Research Questions
 

@@ -88,7 +88,7 @@
           <div class="project-meta">
             <span>2026.03 - 2026.06</span>
             <span>Dependency Analysis</span>
-            <span>Data Project</span>
+            <span>Team Project</span>
           </div>
           <h3>생성형 AI Python 패키지 의존성 네트워크 분석</h3>
           <p>
@@ -101,8 +101,12 @@
               <strong>생성형 AI 생태계에서 실제로 중심이 되는 기반 패키지와 의존성 구조 파악</strong>
             </div>
             <div role="listitem">
-              <span>My Role</span>
-              <strong>공개 자료에는 Seokjun Lee의 개인 담당 업무가 명시되어 있지 않음</strong>
+              <span>Project Type</span>
+              <strong>Team Project · 개인 역할은 기재하지 않음</strong>
+            </div>
+            <div role="listitem">
+              <span>Data Source</span>
+              <strong>PyPI 공식 메타데이터 API 및 패키지 배포 파일 · 2026-06-16 고정 스냅샷</strong>
             </div>
             <div role="listitem">
               <span>Public Data</span>
@@ -131,6 +135,7 @@
           <div class="project-links">
             <a class="text-link" href="https://github.com/jun5007/jun5007.github.io/tree/main/projects/genai-package-dependency">프로젝트 상세 보기</a>
             <a class="text-link" href="https://github.com/jun5007/jun5007.github.io/blob/main/projects/genai-package-dependency/docs/master_data_usage_guide.md">공개 데이터 사용 가이드</a>
+            <a class="text-link" href="https://pypi.org/">PyPI 공식 사이트</a>
           </div>
         </article>
 
@@ -152,7 +157,7 @@
             </div>
             <div role="listitem">
               <span>My Role</span>
-              <strong>Co-author (4th author) · 구현 세부 담당은 공개 자료에 명시되지 않음</strong>
+              <strong>담당 종목 데이터 수집·전처리 및 공통 형식 정리 · 이민성과 Walk-Forward Validation 공동 설계·구현 · Co-author (4th author) · 논문 원고는 이민성 단독 작성</strong>
             </div>
             <div role="listitem">
               <span>Public Implementation</span>
@@ -164,6 +169,7 @@
             </div>
           </div>
           <ul class="project-points">
+            <li>K-Means와 Random Forest는 수업에서 학습한 분석 방법을 프로젝트에 적용하기 위해 사용</li>
             <li>공개 코드에는 K-Means가 없어 고정 산업 매핑 사용 사실을 명시</li>
             <li>각 기준월까지의 자료만 사용해 Lift 파트너와 동조 피처를 재계산</li>
             <li>확장형 Walk-Forward에서 단순 기준선과 두 Random Forest를 같은 fold로 비교</li>
@@ -199,7 +205,7 @@
             </div>
             <div role="listitem">
               <span>My Role</span>
-              <strong>4인 팀 프로젝트 · Seokjun Lee의 세부 담당은 공개 자료에 명시되지 않음</strong>
+              <strong>네이버 검색량 수집·BIGKinds 뉴스 정리 공동 참여 · 최종 데이터 통합 정리 및 시각화 담당</strong>
             </div>
             <div role="listitem">
               <span>Repository Status</span>
@@ -235,7 +241,7 @@
           <p>
             <strong>From Public Leaderboard 1st to Final Private 118th:</strong>
             A Post-Competition Analysis of Validation and Generalization.
-            리더보드 제출 결과를 Public과 Final Private로 구분하며, 순위 차이의 원인은 아직 충분히 검증되지 않았습니다.
+            Public 성과를 만드는 데에는 성공했지만, Final Private 결과를 통해 모델 선택과 일반화 검증 방식을 다시 점검했습니다.
           </p>
           <div class="project-details" role="list" aria-label="ETRI 대회 프로젝트 요약">
             <div role="listitem">
@@ -244,7 +250,7 @@
             </div>
             <div role="listitem">
               <span>My Role</span>
-              <strong>Competition participant · 세부 담당은 공개 자료에 명시되지 않음</strong>
+              <strong>Individual participant</strong>
             </div>
             <div role="listitem">
               <span>Public Leaderboard</span>
@@ -256,9 +262,11 @@
             </div>
           </div>
           <ul class="project-points">
-            <li>리더보드 제출 단계는 2026년 6월 26일 종료</li>
-            <li>Public–Private 차이의 원인을 검증한 코드와 실험 기록은 현재 공개되지 않음</li>
-            <li>전용 공개 저장소와 대회 원본 데이터는 제공하지 않음</li>
+            <li><strong>Initial approach:</strong> Public 순위가 과목 성적에 반영되어, 초기에는 Public 성능을 우선해 모델을 선택했습니다.</li>
+            <li><strong>What worked:</strong> 초기에 Public 1위를 기록했습니다. 이후 Private 일반화를 고려해 모델을 재설계하는 동안 Public 순위가 3위와 5위로 변동했으며, 최종 제출 모델은 다시 Public 1위를 기록했습니다.</li>
+            <li><strong>What did not:</strong> Final Private 118위로 Public–Private 일반화 격차가 크게 나타났습니다. 이는 모델 선택이 Public 피드백에 과도하게 영향을 받았고 과적합 가능성이 있었음을 시사하지만, 전체 코드와 실험 기록 없이 원인을 확정할 수는 없습니다.</li>
+            <li><strong>What I learned:</strong> Public 순위가 높아도 unseen data 성능을 보장하지 않으며, 반복적인 리더보드 피드백 기반 선택은 Public에 특화된 모델을 고르게 할 수 있음을 배웠습니다.</li>
+            <li><strong>What I will change:</strong> 다음 대회에서는 로컬 검증과 일반화 성능을 우선하고, 실험 기록을 체계화하며, leaderboard probing 의존도를 낮추겠습니다. 과목 성적과 별개로 unseen 성능 추정치를 기준으로 모델을 판단하겠습니다.</li>
           </ul>
           <div class="tags">
             <span>Competition</span>
@@ -290,7 +298,7 @@
             </div>
             <h3>DACON ETRI Human Understanding Challenge</h3>
             <p class="competition-role">
-              <strong>My Role:</strong> Participant · 개인 구현 세부 책임은 공개 기록에 명시되지 않음
+              <strong>My Role:</strong> Individual participant
             </p>
             <ul class="competition-results" aria-label="ETRI 대회 성적">
               <li>
@@ -303,7 +311,7 @@
               </li>
             </ul>
             <p class="result-source">
-              Public–Private 차이의 원인은 미확인 상태이며, Public 1위는 해당 단계 결과로만 표기합니다.
+              Public 피드백에 크게 의존한 모델 선택과 과적합 가능성은 결과에 기반한 해석이며 확정 진단은 아닙니다.
             </p>
             <div class="project-links">
               <a class="text-link" href="https://www.dacon.io/competitions/official/236690/overview/schedule">공식 일정</a>
@@ -318,7 +326,7 @@
             </div>
             <h3>2026 성균관대학교 멀티모달 AI Bias 챌린지</h3>
             <p class="competition-role">
-              <strong>My Role:</strong> Participant · 세부 개인 기여는 확인 가능한 기록이 없어 확장 표기하지 않음
+              <strong>My Role:</strong> Individual participant
             </p>
             <ul class="competition-results" aria-label="성균관대학교 멀티모달 대회 성적">
               <li>
@@ -344,7 +352,7 @@
             </div>
             <h3>2026 Samsung Collegiate Programming Challenge : AI 챌린지</h3>
             <p class="competition-role">
-              <strong>My Role:</strong> Individual participant · 세부 구현 범위는 공개 기록에 명시되지 않음
+              <strong>My Role:</strong> Individual participant
             </p>
             <ul class="competition-results single-result" aria-label="Samsung AI 챌린지 현재 성적">
               <li>
@@ -368,7 +376,7 @@
             </div>
             <h3>제3회 풍력발전량 예측 AI 경진대회 - BARAM 2026</h3>
             <p class="competition-role">
-              <strong>My Role:</strong> Participant · 세부 구현 책임은 공개 기록에 명시되지 않음
+              <strong>My Role:</strong> Individual participant
             </p>
             <ul class="competition-results single-result" aria-label="BARAM 2026 현재 성적">
               <li>
