@@ -39,6 +39,13 @@ ETRI is framed as *From Public Leaderboard 1st to Final Private 118th: A Post-Co
 
 These entries are competition records only. They do not assert an award or unannounced advancement, and Public-stage rankings are not presented as final placements. No dedicated public repository or publishable code artifact for the three newly listed competitions is present in this workspace, and original competition data are excluded.
 
+## Certification
+
+- **Google Analytics Certification (2026)** — Google Skillshop
+  - Issued: **2026-06-12**
+  - Expires: **2027-06-12**
+  - The certificate ID and PDF are not published in this repository.
+
 ## Publication
 
 이민성, 홍찬기, 추민주, 이석준, 우지영, “환율 민감도 기반 클러스터링과 동조지수를 이용한 산업별 월간 수익률 예측,” *한국컴퓨터정보학회 2025 하계학술대회 논문집*, 제33권 제2호, pp. 959–961, 2025.07.
