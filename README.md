@@ -17,23 +17,23 @@ The portfolio presents AI and big data coursework and projects with an emphasis 
 
 ## Featured Projects
 
-1. Generative AI Package Dependency Network Analysis — team project using PyPI metadata, version snapshots, dependency information, and package distributions; analysis code not public
-2. Exchange-Rate and Industry Return Walk-Forward Analysis — assigned-stock data collection, preprocessing, and shared-format consolidation; Walk-Forward Validation co-developed with Minsung Lee; partial public R implementation; related to one conference publication
-3. Issue & Stock Market EDA — team data collection, final data consolidation, and visualization contribution; documentation only; independent reproduction unavailable
+1. Generative AI Package Dependency Analysis — team project using PyPI metadata, version snapshots, dependency information, and package distributions; analysis code not public
+2. Exchange Rate & Industry Return Analysis — assigned-stock data collection, preprocessing, and shared-format consolidation; Walk-Forward Validation co-developed with Minsung Lee; partial public R implementation; related to one conference publication
+3. News/Search Trends & Stock Market Response — team data collection, final data consolidation, and visualization contribution; documentation only; independent reproduction unavailable
 4. DACON ETRI Human Understanding Challenge — competition project; **Leaderboard Stage Completed**
 
 ## Competition Record
 
 The signed-in DACON participant profile and the corresponding leaderboards were checked on **2026-07-26**. Ongoing ranks are snapshots and may change.
 
-| Competition | Status | Role | Verified Result |
+| Competition | Status | Participation Type | Verified Result |
 |---|---|---|---|
-| [DACON ETRI Human Understanding Challenge](https://www.dacon.io/competitions/official/236690/leaderboard) | **Leaderboard Stage Completed** | Individual participant | Public **1st · 0.50143** · Final Private **118th · 0.59183** |
-| [2026 성균관대학교 멀티모달 AI Bias 챌린지](https://www.dacon.io/competitions/official/236722/leaderboard) | **Completed** | Individual participant | Public **2nd · 1** · Final Private **33rd / 263 · 0.85952** |
-| [2026 Samsung Collegiate Programming Challenge : AI 챌린지](https://www.dacon.io/competitions/official/236730/leaderboard) | **Round 1 completed; advancement result pending** | Individual participant | Public snapshot **215th / 640 · 0.8686** |
-| [제3회 풍력발전량 예측 AI 경진대회 - BARAM 2026](https://www.dacon.io/competitions/official/236727/leaderboard) | **In Progress** | Individual participant | Public snapshot **42nd / 763 · Total 0.65318** |
+| [DACON ETRI Human Understanding Challenge](https://www.dacon.io/competitions/official/236690/leaderboard) | **Leaderboard Stage Completed** | Individual | Public **1st / 0.50143** · Final Private **118th / 0.59183** |
+| [2026 성균관대학교 멀티모달 AI Bias 챌린지](https://www.dacon.io/competitions/official/236722/leaderboard) | **Completed** | Individual | Public **2nd · 1** · Final Private **33rd / 263 · 0.85952** |
+| [2026 Samsung Collegiate Programming Challenge : AI 챌린지](https://www.dacon.io/competitions/official/236730/leaderboard) | **Round 1 completed; advancement result pending** | Individual | Public snapshot **215th / 640 · 0.8686** |
+| [제3회 풍력발전량 예측 AI 경진대회 - BARAM 2026](https://www.dacon.io/competitions/official/236727/leaderboard) | **In Progress** | Individual | — |
 
-## 대회 회고
+## ETRI 대회 회고
 
 ### 1. 처음의 접근 방식
 
@@ -110,7 +110,7 @@ These entries are competition records only. They do not assert an award or unann
 이민성, 홍찬기, 추민주, 이석준, 우지영, “환율 민감도 기반 클러스터링과 동조지수를 이용한 산업별 월간 수익률 예측,” *한국컴퓨터정보학회 2025 하계학술대회 논문집*, 제33권 제2호, pp. 959–961, 2025.07.
 
 - [DBpia 문헌 정보](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12337990)
-- Seokjun Lee: **Co-author (4th author)**
+- Role: **Co-author**
 - 논문 원문은 저작권 및 팀 공개 범위 확인 전까지 저장소에 포함하지 않음
 
 ## Files
