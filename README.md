@@ -16,7 +16,7 @@ The two routes use the same section order and factual scope. Language switches r
 1. **Generative AI Package Dependency Analysis** — Team project using PyPI metadata, version snapshots, dependency information, and selected package distributions. Cleaned outputs are public; collection and analysis code are not.
 2. **Exchange Rate & Industry Return Analysis** — Team project covering assigned-stock data collection and preprocessing, shared-format consolidation, and Walk-Forward Validation co-developed with Minsung Lee. Related to one conference publication.
 3. **News/Search Trends & Stock Market Response** — Team project involving joint Naver search-volume and BIGKinds data collection, final data consolidation, and visualization by Seokjun Lee. Documentation only; independent reproduction is unavailable.
-4. **DACON ETRI Human Understanding Challenge** — Individual competition entry. Public Leaderboard: **1st / 0.50143**; Final Private Leaderboard: **118th / 0.59183**. A public modular pipeline is available as a reproducibility-oriented refactor, not as evidence of the Public-1st submission.
+4. **DACON ETRI Human Understanding Challenge** — Individual competition entry. Public Leaderboard: **1st / 0.50143**; Final Private Leaderboard: **118th / 0.59183**. The public modular pipeline is a `PORTFOLIO_REFACTORED_VERSION`. The `test684` chain is the verified Public-best candidate, while the exact final submission selection has not been conclusively verified.
 
 ## Public Documentation
 
