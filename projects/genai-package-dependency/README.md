@@ -59,15 +59,17 @@ Project documents describe collection through the official PyPI metadata API. Th
 
 | Item | Public status |
 |---|---|
-| Location | Subfolder of `jun5007.github.io` |
-| Standalone repository | Not available; the project remains in this portfolio subfolder |
+| Location | Preserved subfolder of `jun5007.github.io` |
+| Standalone repository | [Available; canonical repository](https://github.com/jun5007/genai-package-dependency-network) |
 | Cleaned CSV and metrics files | Public in `data/` |
 | Documentation | Public in `docs/` and this README |
 | Collection, cleaning, and network source code | Not present |
 | Notebook | Not present |
 | Project type | Team Project |
 
-The files have not been moved or duplicated into a standalone repository.
+This subfolder remains as a preserved public snapshot. The independent
+repository contains the same cleaned outputs and documentation; no previously
+private team code or raw data was added.
 
 ## Reproducibility
 

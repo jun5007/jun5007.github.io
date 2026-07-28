@@ -16,14 +16,16 @@
 1. **생성형 AI 패키지 의존성 분석** — PyPI 메타데이터, 버전 스냅샷, 의존성 정보, 일부 패키지 배포 파일을 이용한 팀 프로젝트입니다. 정제 결과물은 공개되어 있지만 수집·분석 코드는 공개되어 있지 않습니다.
 2. **환율 및 산업 수익률 분석** — 담당 종목 데이터 수집·전처리와 공통 형식 통합을 수행하고, 이민성과 Walk-Forward Validation을 공동 개발한 팀 프로젝트입니다. 학술대회 논문 1편과 관련되어 있습니다.
 3. **뉴스·검색량과 주식시장 반응 분석** — 네이버 검색량과 BIGKinds 데이터를 팀원들과 함께 수집하고, 이석준이 최종 데이터 정리와 시각화를 담당한 팀 프로젝트입니다. 문서만 공개되어 있어 독립적인 재현은 어렵습니다.
-4. **DACON ETRI 휴먼이해 인공지능 챌린지** — 개인 참가 대회입니다. Public Leaderboard **1위 / 0.50143**, Final Private Leaderboard **118위 / 0.59183**을 기록했습니다.
+4. **DACON ETRI 휴먼이해 인공지능 챌린지** — 개인 참가 대회입니다. Public Leaderboard **1위 / 0.50143**, Final Private Leaderboard **118위 / 0.59183**을 기록했습니다. 공개 모듈형 파이프라인은 Public 1위 제출 코드의 증거가 아니라 재현성 검토용 리팩터링입니다.
 
 ## 공개 문서
 
 - [English GitHub Profile](https://github.com/jun5007)
 - [한국어 GitHub 프로필](https://github.com/jun5007/jun5007/blob/main/README.ko.md)
-- [Generative AI Project Documentation](./projects/genai-package-dependency/README.md)
-- [생성형 AI 프로젝트 문서](./projects/genai-package-dependency/README.ko.md)
+- [Generative AI Project Repository](https://github.com/jun5007/genai-package-dependency-network)
+- [생성형 AI 프로젝트 한국어 문서](https://github.com/jun5007/genai-package-dependency-network/blob/main/README.ko.md)
+- [ETRI Reproducibility Repository](https://github.com/jun5007/dacon-etri-human-understanding-2026)
+- [ETRI 한국어 문서](https://github.com/jun5007/dacon-etri-human-understanding-2026/blob/main/README.ko.md)
 
 ## 사이트 파일
 
@@ -31,7 +33,7 @@
 - `ko/index.html`: 한국어 페이지
 - `styles.css`: 공통 반응형 스타일
 - `language.js`: 섹션 위치를 유지하는 공통 언어 전환 스크립트
-- `projects/genai-package-dependency/`: 공개 문서와 확인 가능한 CSV 결과물
+- `projects/genai-package-dependency/`: 보존된 공개 스냅샷이며 독립 저장소를 기준 문서로 사용
 - `docs/BILINGUAL_MAINTENANCE.md`: 두 언어 버전을 함께 관리하기 위한 체크리스트
 
 ## 논문 및 자격 정보 범위

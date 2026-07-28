@@ -16,14 +16,16 @@ The two routes use the same section order and factual scope. Language switches r
 1. **Generative AI Package Dependency Analysis** — Team project using PyPI metadata, version snapshots, dependency information, and selected package distributions. Cleaned outputs are public; collection and analysis code are not.
 2. **Exchange Rate & Industry Return Analysis** — Team project covering assigned-stock data collection and preprocessing, shared-format consolidation, and Walk-Forward Validation co-developed with Minsung Lee. Related to one conference publication.
 3. **News/Search Trends & Stock Market Response** — Team project involving joint Naver search-volume and BIGKinds data collection, final data consolidation, and visualization by Seokjun Lee. Documentation only; independent reproduction is unavailable.
-4. **DACON ETRI Human Understanding Challenge** — Individual competition entry. Public Leaderboard: **1st / 0.50143**; Final Private Leaderboard: **118th / 0.59183**.
+4. **DACON ETRI Human Understanding Challenge** — Individual competition entry. Public Leaderboard: **1st / 0.50143**; Final Private Leaderboard: **118th / 0.59183**. A public modular pipeline is available as a reproducibility-oriented refactor, not as evidence of the Public-1st submission.
 
 ## Public Documentation
 
 - [English GitHub profile](https://github.com/jun5007)
 - [한국어 GitHub 프로필](https://github.com/jun5007/jun5007/blob/main/README.ko.md)
-- [Generative AI project documentation](./projects/genai-package-dependency/README.md)
-- [생성형 AI 프로젝트 문서](./projects/genai-package-dependency/README.ko.md)
+- [Generative AI project repository](https://github.com/jun5007/genai-package-dependency-network)
+- [생성형 AI 프로젝트 한국어 문서](https://github.com/jun5007/genai-package-dependency-network/blob/main/README.ko.md)
+- [ETRI reproducibility repository](https://github.com/jun5007/dacon-etri-human-understanding-2026)
+- [ETRI 한국어 문서](https://github.com/jun5007/dacon-etri-human-understanding-2026/blob/main/README.ko.md)
 
 ## Site Files
 
@@ -31,7 +33,7 @@ The two routes use the same section order and factual scope. Language switches r
 - `ko/index.html`: Korean page
 - `styles.css`: Shared responsive styling
 - `language.js`: Shared anchor-preserving language switcher
-- `projects/genai-package-dependency/`: Public documentation and inspectable CSV outputs
+- `projects/genai-package-dependency/`: Preserved public snapshot; the standalone repository is canonical
 - `docs/BILINGUAL_MAINTENANCE.md`: Checklist for keeping both language versions aligned
 
 ## Publication and Certification Scope
