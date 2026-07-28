@@ -26,7 +26,7 @@ The project explored four questions:
 - Structural data: selected package distributions available through PyPI, parsed for file, import, and symbol structure
 - Public snapshot date: **2026-06-16**
 
-Project documents describe collection through the official PyPI metadata API. The public tables contain PyPI project URLs and metadata fields. The collection code is not public, so the exact endpoint sequence and complete acquisition pipeline cannot be reproduced from this folder alone. The files do not contain download counts or package-usage statistics.
+Project documents describe collection through the official PyPI metadata API. The public tables contain PyPI project URLs and metadata fields. The original collection and cleaning code is not public, so the exact endpoint sequence and complete acquisition pipeline cannot be reproduced from this folder alone. The canonical repository's public results-analysis Notebook makes no network requests and is not mirrored in this snapshot. The files do not contain download counts or package-usage statistics.
 
 ## Data Scope
 
@@ -63,19 +63,22 @@ Project documents describe collection through the official PyPI metadata API. Th
 | Standalone repository | [Available; canonical repository](https://github.com/jun5007/genai-package-dependency-network) |
 | Cleaned CSV and metrics files | Public in `data/` |
 | Documentation | Public in `docs/` and this README |
-| Collection, cleaning, and network source code | Not present |
-| Notebook | Not present |
+| Original collection and cleaning code | Not present |
+| Canonical public results-analysis Notebook | [Available in standalone repository](https://github.com/jun5007/genai-package-dependency-network/blob/main/notebooks/01_public_results_analysis.ipynb) |
+| Notebook in this preserved subfolder | Not present |
 | Project type | Team Project |
 
 This subfolder remains as a preserved public snapshot. The independent
-repository contains the same cleaned outputs and documentation; no previously
-private team code or raw data was added.
+repository now also contains a portfolio-refactored results-analysis Notebook.
+That Notebook is not mirrored here. This snapshot still contains only the
+cleaned outputs and documentation; the original collection and cleaning code
+and raw data remain non-public.
 
 ## Reproducibility
 
-**Code Not Public / Independent Reproduction Is Limited**
+**Canonical Results Notebook Public / This Snapshot Remains Outputs-Only**
 
-The public files support inspection of cleaned outputs and the examples in the data usage guide. No analysis source file (`.py`, `.ipynb`, `.r`, `.Rmd`, `.qmd`, `.js`, or `.ts`) is present in this folder. The original collection, cleaning, and network-generation source code is not included, so the complete pipeline cannot be regenerated end to end.
+The standalone repository includes a portfolio-refactored results-analysis Notebook that clean-runs on the six published CSV files. This preserved website snapshot still contains only outputs and documentation; the original collection and cleaning pipeline remains non-public.
 
 ## Public Files
 
@@ -96,12 +99,12 @@ docs/
 
 ## Large Local Artifacts
 
-The full analysis workspace also contains a 72,922-row code-structure table, a SQLite database, downloaded distributions, and presentation artifacts. They are intentionally excluded from this public folder. The five public CSV files and JSON/CSV metrics support the examples in the [data usage guide](./docs/master_data_usage_guide.md); no local database or absolute path is required.
+The full analysis workspace also contains a 72,922-row code-structure table, a SQLite database, downloaded distributions, and private presentation decks or PDFs. They are intentionally excluded from this public folder. The already-public plain-text presentation script remains under `docs/`. The five public CSV files and JSON/CSV metrics support the examples in the [data usage guide](./docs/master_data_usage_guide.md); no local database or absolute path is required.
 
 ## Improvement Direction
 
 - Publish the collection, cleaning, and network-analysis pipeline after ownership and sharing permission are confirmed.
-- Add a notebook or executable script with fixed dependencies and input/output definitions.
+- Preserve collection timestamps, parser versions, and edge-layer definitions in any future data refresh.
 - Add visible color chips to the network legend and keep node and edge color rules consistent across graphs and presentation materials.
 - Add chart captions explaining package-category node colors and dependency edges.
 
@@ -109,7 +112,7 @@ The full analysis workspace also contains a 72,922-row code-structure table, a S
 
 Local absolute paths were removed before public release. Relative paths in the code-structure sample identify files inside the original collection workspace and are retained only as record context.
 
-Package metadata and structural records originate from distributions available through PyPI. Each upstream package retains its own license; this repository does not relicense upstream source code. The public sample contains paths, imports, and symbol names rather than source-code bodies.
+Package metadata and structural records originate from distributions available through PyPI. Each upstream package retains its own license; this repository does not relicense upstream source code. The public 500-row sample contains relative paths and import-related metadata rather than source-code bodies.
 
 This folder does not contain a project-level `LICENSE` or `DATA_LICENSE.md`. The package metadata license field is incomplete for some upstream packages and must not be treated as definitive redistribution permission. Reuse requires a separate review of upstream terms and attribution requirements.
 
